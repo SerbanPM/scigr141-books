@@ -12,4 +12,4 @@
 ~11~ SculptureAlbum: nrPagini = 500 / nume = 'Sculpture3' / calitateHartie = 'not that good' / gen = 'bronz'
 ~12~ Novel: nrPagini = 100 / nume = 'Nuv1' / gen literar = 'action'
 ~13~ ArtAlbum: nrPagini = 40 / nume = 'Art2' / calitateHartie = 'impressive'
-~14~ SculptureAlbum: nrPagini = 50 / nume = 'Sculpture3' / calitateHartie = 'ioioi' / gen = 'wtf?'
+~14~ SculptureAlbum: nrPagini = 50 / nume = 'Sculpture3' / calitateHartie = 'ioioi' / gen = 'dunno'
