@@ -135,7 +135,7 @@ public class InventoryManagement {
         librarie.addBook(albumArta);
         librarie.addBook(albumSculptura);
 
-        // Removing intems from the list
+        // Removes intems from the list
         librarie.remove(art2);
 
         // Writes and prints the item list.
@@ -145,7 +145,9 @@ public class InventoryManagement {
         // Counts and prints the number of the items in the list.
         System.out.println("\nNumar de books existente in biblioteca : " + librarie.getItemCount());
 
-        // Writes a file containing the list of objects in the library.
+        /**
+         * Writes a file containing the list of objects in the library.
+         */
         File inventory = new File("src/ro/sci/resources/Elemente Librarie.txt");
 
         try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("src/ro/sci/resources/Elemente Librarie.txt"))) {
@@ -167,7 +169,9 @@ public class InventoryManagement {
             System.out.println("General I/O exception for file: " + inventory.toString());
         }
 
-        // Reads the file containing the list of objects in the library.
+        /**
+         * Reads the file containing the list of objects in the library.
+         */
         try (BufferedReader fileReader = new BufferedReader(new FileReader(inventory))) {
             String line;
 
@@ -180,19 +184,23 @@ public class InventoryManagement {
             System.out.println("Unable to read file: " + inventory.toString());
         }
 
-        // Searches for a book using the name inquired by user.
-        // Prints the result of the search.
+        /**
+         * Searches for a book using the name inquired by user.
+         * Prints the result of the search.
+         */
         Scanner keyboard = new Scanner(System.in);
         System.out.println("\nIntroduceti numele cartii cautate: ");
         String mySearch = keyboard.nextLine();
         librarie.search(mySearch);
 
-        // Searches for a book using the position number inquired by user.
-        // Prints the name of the book.
+        /**
+         * Searches for a book using the position number inquired by user.
+         * Prints the name of the book.
+         */
         System.out.println("\nIntroduceti un numarul pozitiei cautate: ");
         int myint = keyboard.nextInt();
         String myString = keyboard.nextLine();
-        System.out.println("\nCartea aflata la pozitia " + myint + " este: ");
+        System.out.println("\nCartea aflata la pozitia ~" + myint + "~ este: ");
 
         try {
             List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/Elemente Librarie.txt"));
