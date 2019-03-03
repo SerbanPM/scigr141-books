@@ -12,10 +12,32 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * <h1>InventoryManagement</h1>
+ * Calls the {@link #addBook(Book carte)} method which is used to add objects to the list.
+ * Calls the {@link #getItemCount()} method which is used to count the objects in the list.
+ * Calls the {@link #search(String ceCauti)} method which is used to searche for a title in the list.
+ * Calls the {@link #remove(Book book)} method which is used to remove objects from the list.
+ * Prints the list of objects present in the list.
+ * Implements writing a text file containing the list of objects from the list.
+ * Implements reading the file and printing the list of objects from the list.
+ * Implements reading from keyboard using eighter the name of the object or the
+ * position number on the list.
+ *
+ * @author Serban PM
+ * @version 1.0
+ * @since 20190122
+ */
+
+/**
+ * Manages the list of {@link Book} objects.
+ */
 public class InventoryManagement {
 
     public static void main(String[] args){
 
+
+        // Creates objects with the given arguments.
         Book carte1 = new Book();
         carte1.setNume("Carte1");
         carte1.setNrPagini(10);
@@ -90,10 +112,13 @@ public class InventoryManagement {
         albumSculptura.setNume("Sculpture3");
         albumSculptura.setNrPagini(50);
         ((SculptureAlbum) albumSculptura).setCalitateHartie("ioioi");
-        ((SculptureAlbum) albumSculptura).setGen("wtf?");
+        ((SculptureAlbum) albumSculptura).setGen("dunno");
 
+
+        // Creates an array list with the added objects.
         Library librarie = new Library();
 
+        // Adds items to the list.
         librarie.addBook(carte1);
         librarie.addBook(carte2);
         librarie.addBook(carte3);
@@ -110,24 +135,29 @@ public class InventoryManagement {
         librarie.addBook(albumArta);
         librarie.addBook(albumSculptura);
 
+        // Removing intems from the list
         librarie.remove(art2);
 
-        //afiseaza cuprinsul bibliotecii si numara articolele ramase dupa add si remove
+        // Writes and prints the item list.
         List cartileDinBiblioteca = librarie.getListOfBooks();
         System.out.println("\n" + cartileDinBiblioteca);
+
+        // Counts and prints the number of the items in the list.
         System.out.println("\nNumar de books existente in biblioteca : " + librarie.getItemCount());
 
+        // Writes a file containing the list of objects in the library.
         File inventory = new File("src/ro/sci/resources/Elemente Librarie.txt");
 
         try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("src/ro/sci/resources/Elemente Librarie.txt"))) {
 
-            //creeaza o lista a elementelor din biblioteca
+            // Creates a string containing the books in the library.
             String listaNeprelucrata = cartileDinBiblioteca.toString();
-            //elimina primul si ultimul caracter ale listei
+            // Eliminates the first and the last characters from the string.
             String centralizatorCarti = listaNeprelucrata.substring(1, listaNeprelucrata.length() - 1);
-            //face split acolo unde intalneste o virgula urmata de un spatiu
+            // Splits the string where a certain pattern is found.
             String[] elementeLibrarie = centralizatorCarti.split(",\\s");
-            //java foreach loop pentru a printa elementele
+            // Java foreach loop prints the separated elements of the library.
+            // Adds position numbers to every element of the library.
             int index = 1;
             for (String e : elementeLibrarie) {
                 fileWriter.write("\n~" + String.valueOf(index++) + "~ " + e);
@@ -137,6 +167,7 @@ public class InventoryManagement {
             System.out.println("General I/O exception for file: " + inventory.toString());
         }
 
+        // Reads the file containing the list of objects in the library.
         try (BufferedReader fileReader = new BufferedReader(new FileReader(inventory))) {
             String line;
 
@@ -149,11 +180,15 @@ public class InventoryManagement {
             System.out.println("Unable to read file: " + inventory.toString());
         }
 
+        // Searches for a book using the name inquired by user.
+        // Prints the result of the search.
         Scanner keyboard = new Scanner(System.in);
         System.out.println("\nIntroduceti numele cartii cautate: ");
         String mySearch = keyboard.nextLine();
         librarie.search(mySearch);
 
+        // Searches for a book using the position number inquired by user.
+        // Prints the name of the book.
         System.out.println("\nIntroduceti un numarul pozitiei cautate: ");
         int myint = keyboard.nextInt();
         String myString = keyboard.nextLine();
