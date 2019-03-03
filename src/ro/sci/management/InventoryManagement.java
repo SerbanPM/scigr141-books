@@ -165,25 +165,12 @@ public class InventoryManagement {
             System.out.println(arrayLines[myint]);
         } catch (IOException e) {
             e.printStackTrace();
-
         }
-
     }
 
 }
 
-      /*
-        Scanner keyboard = new Scanner(System.in);
-        System.out.println("\nIntroduceti numele cartii cautate: ");
-        String mySearch = keyboard.nextLine();
-        librarie.search(mySearch);
 
-        System.out.println("\nIntroduceti un numar: ");
-        int myint = keyboard.nextInt();
-        String myString = keyboard.nextLine();
-        System.out.println("\nAm citit: " + myint);
-        System.out.println("Am citit: " + myString + "\n");
-    */
 
 
 
