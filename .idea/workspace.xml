@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/META-INF/Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/ArtAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/ArtAlbum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Novel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Novel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,20 +29,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="1088">
+              <caret line="104" column="32" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="32" />
+              <folding>
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
+                <element signature="e#1519#1520#0" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#3455#3456#0" expanded="true" />
+                <element signature="e#3495#3496#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,30 +62,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#701#702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,11 +79,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="255">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,10 +162,11 @@
         <option value="$PROJECT_DIR$/src/ro/sci/BookManagement.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/Library.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/InventoryManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/Novel.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
       </list>
     </option>
@@ -124,7 +174,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="5" />
     <option name="y" value="15" />
-    <option name="width" value="965" />
+    <option name="width" value="1164" />
     <option name="height" value="995" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -132,10 +182,64 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551552383645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551639940245" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -233,15 +337,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.28454173" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19194631" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="1" sideWeight="0.30738255" side_tool="true" visible="true" weight="0.296034" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.48657718" weight="0.30878186" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3080537" side_tool="true" visible="true" weight="0.21388102" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.4856753" weight="0.30873495" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.499316" weight="0.32935917" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6926175" weight="0.47592068" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6919463" weight="0.21388102" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49932885" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -308,44 +412,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/Elemente Librarie.txt" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="1088">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#3455#3456#0" expanded="true" />
+            <element signature="e#3495#3496#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -353,13 +483,23 @@
     <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/Elemente Librarie.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
