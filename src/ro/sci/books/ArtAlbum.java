@@ -9,9 +9,9 @@ package ro.sci.books;
  * @version 1.0
  * @see Book
  * @since 20190122
- * /
+ */
 
- * /**
+ /**
  * Represents a category of books that can be found in this library.
  */
 public class ArtAlbum extends Book {
