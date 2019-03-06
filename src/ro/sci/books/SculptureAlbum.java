@@ -61,7 +61,7 @@ public class SculptureAlbum extends ArtAlbum {
      */
     @Override
     public String toString( ){
-        return "SculptureAlbum: " + "nrPagini = " + getNrPagini() + " / nume = '" + getNume() + '\'' + " / calitateHartie = '" + getCalitateHartie() + '\'' + " / gen = '" + gen + '\'';
+        return "SculptureAlbum: " + "nrPagini = " + getNrPagini() + " / nume = '" + getNume() + '\'' + " / editia " + getAnAparitie() + " / calitateHartie = '" + getCalitateHartie() + '\'' + " / gen = '" + gen + '\'';
     }
 }
 
