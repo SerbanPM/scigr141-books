@@ -1,7 +1,5 @@
 package ro.sci.books;
 
-import ro.sci.library.Library;
-
 /**
  * <h1>Book</h1>
  * Represents books that can be added, removed, sorted, oredered, clasified, etc in this library.
@@ -27,6 +25,11 @@ public class Book {
      * The name of this book.
      */
     private String nume;
+
+    /**
+     * The year this book was published.
+     */
+    private int anAparitie;
 
     /**
      * Getter method which returns the number of pages of this book.
@@ -65,12 +68,30 @@ public class Book {
     }
 
     /**
+     * Getter method which returns the year this book book was published.
+     *
+     * @return An int containing the year this book was published.
+     */
+    public int getAnAparitie( ){
+        return anAparitie;
+    }
+
+    /**
+     * Setter method used to input the year this book book was published.
+     *
+     * @param anAparitie int data type containing the containing the year this book was published.
+     */
+    public void setAnAparitie(int anAparitie){
+        this.anAparitie = anAparitie;
+    }
+
+    /**
      * Method overriden from the {@link Object} class.
      *
      * @return a String containing a specific representation of Book class instances.
      */
     @Override
     public String toString( ){
-        return "Book: " + "nrPagini = " + nrPagini + " / nume = '" + nume + '\'';
+        return "Book: " + "nrPagini = " + nrPagini + " / nume = '" + nume + '\'' + " / editia " + anAparitie;
     }
 }
