@@ -173,7 +173,7 @@ public class ArrayListManagement {
         /**
          * Writes a file containing the list of objects in the library.
          */
-        Scanner writeInventory = null;
+
         File inventory = new File("src/ro/sci/resources/Elemente Librarie.txt");
         try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("src/ro/sci/resources/Elemente Librarie.txt"))) {
 
