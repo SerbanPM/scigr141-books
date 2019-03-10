@@ -31,24 +31,34 @@ public class Book {
      */
     private int anAparitie;
 
+    /**
+     * Default constructor.
+     */
+    public Book( ){
+    }
+
+    /**
+     * Creates new instances of class Book taking three parameters.
+     * It is particularily used to create instances of the Book class using the parameters taken as input from user.
+     *
+     * @param nameInArray A String containing the name of this book.
+     * @param pagesInArray An int containing the number of pages of this book.
+     * @param yearInArray An int containing the year this book was published.
+     */
     public Book(String nameInArray, int pagesInArray, int yearInArray){
         this.nume = nameInArray;
         this.nrPagini = pagesInArray;
         this.anAparitie = yearInArray;
     }
 
-    public Book( ){
-        nrPagini = 0;
-        nume = "Fara nume";
-        anAparitie = 0;
-    }
-
-//    public Book(String nume, int nrPagini, int anAparitie){
-//        this.nume = nume;
-//        this.nrPagini = nrPagini;
-//        this.anAparitie = anAparitie;
-//    }
-
+    /**
+     * Setter method used to input the paper quality of this art album.
+     * It is particularily used to create instances of the Book class using the parameters taken as input from user.
+     *
+     * @param nameInArray A String containing the name of this book
+     * @param pagesInArray An int containing the number of pages of this book
+     * @param yearInArray An int containing the year this book was published
+     */
     public void setNamePageYear(String nume, int nrPagini, int anAparitie){
         this.nume = nume;
         this.nrPagini = nrPagini;
