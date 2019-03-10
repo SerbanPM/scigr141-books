@@ -28,6 +28,9 @@ import java.util.Scanner;
  * Implements reading from keyboard using eighter the name of the object or the
  * position number on the list.
  *
+ * It also implements collections using Arrays, the purpose being to show the differences between
+ * the various ways to implement collections.
+ *
  * @author Serban PM
  * @version 1.0
  * @since 20190122
@@ -181,7 +184,6 @@ public class InventoryManagement {
         /**
          * Writes a file containing the list of objects in the library.
          */
-
         File arrayListInventory = new File("src/ro/sci/resources/ArrayList Library.txt");
         try (BufferedWriter fileWriter01 = new BufferedWriter(new FileWriter("src/ro/sci/resources/ArrayList Library.txt"))) {
 
@@ -191,6 +193,7 @@ public class InventoryManagement {
             String centralizatorCarti01 = listaNeprelucrata.substring(1, listaNeprelucrata.length() - 1);
             // Splits the string where a certain pattern is found.
             String[] elementeLibrarie01 = centralizatorCarti01.split(",\\s");
+            fileWriter01.write("\nIn biblioteca se afla urmatoarele titluri:\n");
             // Java foreach loop prints the separated elements of the library.
             // Adds position numbers to every element of the library.
             int index = 1;
@@ -202,9 +205,8 @@ public class InventoryManagement {
             System.out.println("General I/O exception for file: " + arrayListInventory.toString());
         }
 
-
-        // This part of code prints the content of the file "Elemente Librarie"
-        // If necesary, uncomment the code
+// This part of code prints the content of the file "Elemente Librarie"
+// If necesary, uncomment the code
 
         /**
          * Reads the file containing the list of objects in the library.
@@ -218,8 +220,6 @@ public class InventoryManagement {
 //        } catch (FileNotFoundException e) {
 //            System.out.println("Exception occured: " + e);
 //        }
-//        readArrayListInventory.close();
-
 
         /**
          * Searches for a book using the name inquired by user.
@@ -250,12 +250,17 @@ public class InventoryManagement {
         /**
          * =============================Implementing collections using Arrays ===================================
          */
+
         System.out.println("\n============ Arrays ============");
-        // Reads the input from the user and sets it as the array lenght
+
+        // Reads the input from the user and sets it as the array lenght.
         int arraySize;
         System.out.println("\nCate carti doriti sa pastrati in biblioteca?");
         arraySize = keyboard.nextInt();
         Book[] booksInArray = new Book[arraySize];
+        
+        // Java foreach loop that takes input from user and uses the data as parameters to create
+        // customized instances of class Book
         for (int i = 0; i < arraySize; i++) {
             System.out.println("\nPentru articolul cu numarul " + (i + 1) + ":");
             System.out.println("Introduceti numele cartii pe care o introduceti in biblioteca:");
@@ -272,33 +277,41 @@ public class InventoryManagement {
             System.out.println((counter + 1) + ") " + booksInArray[counter]);
         }
 
-        keyboard.close();
+        // Takes input from user and calculates de index of the item to be removed
+        System.out.println("\nIntroduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
+        int positionToRemove = keyboard.nextInt();
+        int indexToRemove = positionToRemove - 1;
 
+         // Rmoves an item from the array, copying the remaining items in a different array with a length diminished by one.
+        Book[] reducedArray = new Book[booksInArray.length - 1];
+        for (int i = 0; i < booksInArray.length; i++) {
+            if (i < indexToRemove) {
+                reducedArray[i] = booksInArray[i];
+            } else if (i > indexToRemove) {
+                reducedArray[i - 1] = booksInArray[i];
+            }
+        }
+        System.out.println("\nAu mai ramas in biblioteca urmatoarele titluri:");
+        for (int counter = 0; counter < reducedArray.length; counter++) {
+            System.out.println((counter + 1) + ") " + reducedArray[counter]);
+        }
+
+        // Writes a file containing the list of objects in the array.
         File arrayInventory = new File("src/ro/sci/resources/Array Library.txt");
         try (BufferedWriter fileWriter02 = new BufferedWriter(new FileWriter("src/ro/sci/resources/Array Library.txt"))) {
 
-            String arrayToFile = Arrays.toString(booksInArray);
+            String arrayToFile = Arrays.toString(reducedArray);
             String centralizatorCarti02 = arrayToFile.substring(1, arrayToFile.length() - 1);
             String[] elementeLibrarie02 = centralizatorCarti02.split(",\\s");
+            fileWriter02.write("\nDupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:\n");
             int index = 1;
-           for (String e : elementeLibrarie02) {
-               fileWriter02.write("\n~" + String.valueOf(index++) + "~ " + e);
-           }
+            for (String e : elementeLibrarie02) {
+                fileWriter02.write("\n~" + String.valueOf(index++) + "~ " + e);
+            }
 
         } catch (IOException e) {
             System.out.println("General I/O exception for file: " + arrayInventory.toString());
         }
-
-//        Scanner readArrayInventory = new Scanner(System.in);
-//        System.out.println("\nIntroduceti numele cartii pe care doriti sa o stergeti: ");
-//        String bookToRemove = readArrayInventory.next().concat(readArrayInventory.nextLine());
-//        // Erases an item from the Array
-//        Book[] reducedArray = Arrays.stream(booksInArray)
-//                .filter(e -> !e.equals(carte2)).toArray(Book[]::new);
-//        for (int row = 0; row < reducedArray.length; row++) {
-//            System.out.print("\n" + reducedArray[row]);
-//        }
-
 
     }
 
