@@ -12,6 +12,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -42,7 +43,7 @@ public class InventoryManagement {
 
         // Creates objects with the given arguments.
         Book carte1 = new Book();
-        carte1.setNume("Carte 1");
+        carte1.setNume("Carte1");
         carte1.setNrPagini(10);
         carte1.setAnAparitie(2000);
 
@@ -181,42 +182,44 @@ public class InventoryManagement {
          * Writes a file containing the list of objects in the library.
          */
 
-        File inventory = new File("src/ro/sci/resources/Elemente Librarie.txt");
-        try (BufferedWriter fileWriter = new BufferedWriter(new FileWriter("src/ro/sci/resources/Elemente Librarie.txt"))) {
+        File arrayListInventory = new File("src/ro/sci/resources/ArrayList Library.txt");
+        try (BufferedWriter fileWriter01 = new BufferedWriter(new FileWriter("src/ro/sci/resources/ArrayList Library.txt"))) {
 
             // Creates a string containing the books in the library.
             String listaNeprelucrata = cartileDinBiblioteca.toString();
             // Eliminates the first and the last characters from the string.
-            String centralizatorCarti = listaNeprelucrata.substring(1, listaNeprelucrata.length() - 1);
+            String centralizatorCarti01 = listaNeprelucrata.substring(1, listaNeprelucrata.length() - 1);
             // Splits the string where a certain pattern is found.
-            String[] elementeLibrarie = centralizatorCarti.split(",\\s");
+            String[] elementeLibrarie01 = centralizatorCarti01.split(",\\s");
             // Java foreach loop prints the separated elements of the library.
             // Adds position numbers to every element of the library.
             int index = 1;
-            for (String e : elementeLibrarie) {
-                fileWriter.write("\n~" + String.valueOf(index++) + "~ " + e);
+            for (String e : elementeLibrarie01) {
+                fileWriter01.write("\n~" + String.valueOf(index++) + "~ " + e);
             }
 
         } catch (IOException e) {
-            System.out.println("General I/O exception for file: " + inventory.toString());
+            System.out.println("General I/O exception for file: " + arrayListInventory.toString());
         }
 
 
         // This part of code prints the content of the file "Elemente Librarie"
         // If necesary, uncomment the code
 
-//        /**
-//         * Reads the file containing the list of objects in the library.
-//         */
-//        Scanner readInventory = null;
+        /**
+         * Reads the file containing the list of objects in the library.
+         */
+//        Scanner readArrayListInventory = null;
 //        try {
-//            readInventory = new Scanner(new File("src/ro/sci/resources/Elemente Librarie.txt"));
-//            while (readInventory.hasNextLine()) {
-//                System.out.println(readInventory.nextLine());
+//            readArrayListInventory = new Scanner(new File("src/ro/sci/resources/ArrayList Library.txt"));
+//            while (readArrayListInventory.hasNextLine()) {
+//                System.out.println(readArrayListInventory.nextLine());
 //            }
 //        } catch (FileNotFoundException e) {
 //            System.out.println("Exception occured: " + e);
 //        }
+//        readArrayListInventory.close();
+
 
         /**
          * Searches for a book using the name inquired by user.
@@ -237,7 +240,7 @@ public class InventoryManagement {
         System.out.println("\nCartea aflata la pozitia ~" + myint + "~ este: ");
 
         try {
-            List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/Elemente Librarie.txt"));
+            List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/ArrayList Library.txt"));
             String[] arrayLines = allLines.toArray(new String[0]);
             System.out.println(arrayLines[myint]);
         } catch (IOException e) {
@@ -271,12 +274,29 @@ public class InventoryManagement {
 
         keyboard.close();
 
+        File arrayInventory = new File("src/ro/sci/resources/Array Library.txt");
+        try (BufferedWriter fileWriter02 = new BufferedWriter(new FileWriter("src/ro/sci/resources/Array Library.txt"))) {
 
+            String arrayToFile = Arrays.toString(booksInArray);
+            String centralizatorCarti02 = arrayToFile.substring(1, arrayToFile.length() - 1);
+            String[] elementeLibrarie02 = centralizatorCarti02.split(",\\s");
+            int index = 1;
+           for (String e : elementeLibrarie02) {
+               fileWriter02.write("\n~" + String.valueOf(index++) + "~ " + e);
+           }
+
+        } catch (IOException e) {
+            System.out.println("General I/O exception for file: " + arrayInventory.toString());
+        }
+
+//        Scanner readArrayInventory = new Scanner(System.in);
+//        System.out.println("\nIntroduceti numele cartii pe care doriti sa o stergeti: ");
+//        String bookToRemove = readArrayInventory.next().concat(readArrayInventory.nextLine());
 //        // Erases an item from the Array
-//        Book[] filteredArray = Arrays.stream(booksInArray)
-//                .filter(e -> !e.equals(art2)).toArray(Book[]::new);
-//        for (int row = 0; row < filteredArray.length; row++) {
-//            System.out.print("\n" + filteredArray[row]);
+//        Book[] reducedArray = Arrays.stream(booksInArray)
+//                .filter(e -> !e.equals(carte2)).toArray(Book[]::new);
+//        for (int row = 0; row < reducedArray.length; row++) {
+//            System.out.print("\n" + reducedArray[row]);
 //        }
 
 
