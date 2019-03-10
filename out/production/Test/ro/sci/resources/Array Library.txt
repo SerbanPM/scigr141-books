@@ -1,0 +1,3 @@
+
+~1~ Book: nume = 'sdgh' / nrPagini = 2356 / editia 2356
+~2~ Book: nume = 'carte2' / nrPagini = 253326 / editia 25236
