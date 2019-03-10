@@ -1,4 +1,6 @@
 
+In biblioteca se afla urmatoarele titluri:
+
 ~1~ Book: nume = 'Carte1' / nrPagini = 10 / editia 2000
 ~2~ Book: nume = 'Carte2' / nrPagini = 100 / editia 1999
 ~3~ Book: nume = 'Carte3' / nrPagini = 50 / editia 1998
