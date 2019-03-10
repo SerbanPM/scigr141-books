@@ -11,7 +11,7 @@ package ro.sci.books;
  * @since 20190122
  */
 
- /**
+/**
  * Represents a category of books that can be found in this library.
  */
 public class ArtAlbum extends Book {
@@ -46,6 +46,6 @@ public class ArtAlbum extends Book {
      */
     @Override
     public String toString( ){
-        return "ArtAlbum: " + "nrPagini = " + getNrPagini() + " / nume = '" + getNume() + '\'' + " / editia " + getAnAparitie() + " / calitateHartie = '" + calitateHartie + "\'";
+        return "ArtAlbum: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / editia " + getAnAparitie() + " / calitateHartie = '" + calitateHartie + "\'";
     }
 }
