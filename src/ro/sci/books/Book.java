@@ -31,6 +31,30 @@ public class Book {
      */
     private int anAparitie;
 
+    public Book(String nameInArray, int pagesInArray, int yearInArray){
+        this.nume = nameInArray;
+        this.nrPagini = pagesInArray;
+        this.anAparitie = yearInArray;
+    }
+
+    public Book( ){
+        nrPagini = 0;
+        nume = "Fara nume";
+        anAparitie = 0;
+    }
+
+//    public Book(String nume, int nrPagini, int anAparitie){
+//        this.nume = nume;
+//        this.nrPagini = nrPagini;
+//        this.anAparitie = anAparitie;
+//    }
+
+    public void setNamePageYear(String nume, int nrPagini, int anAparitie){
+        this.nume = nume;
+        this.nrPagini = nrPagini;
+        this.anAparitie = anAparitie;
+    }
+
     /**
      * Getter method which returns the number of pages of this book.
      *
@@ -92,6 +116,7 @@ public class Book {
      */
     @Override
     public String toString( ){
-        return "Book: " + "nrPagini = " + nrPagini + " / nume = '" + nume + '\'' + " / editia " + anAparitie;
+        return "Book: " + "nume = '" + nume + '\'' + " / nrPagini = " + nrPagini + " / editia " + anAparitie;
     }
+
 }
