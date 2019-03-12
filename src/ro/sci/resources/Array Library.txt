@@ -1,4 +1,4 @@
 
 Dupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:
 
-~1~ Book: nume = 'sdg' / nrPagini = 235 / editia 2356
+~1~ Book: nume = 'asfg' / nrPagini = 1245 / editia 1245
