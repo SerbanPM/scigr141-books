@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu">
-      <change afterPath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" afterDir="false" />
@@ -28,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="341" column="34" selection-start-line="341" selection-start-column="34" selection-end-line="341" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="323" column="50" lean-forward="true" selection-start-line="323" selection-start-column="50" selection-end-line="323" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="697">
               <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
             </state>
           </provider>
@@ -230,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552403666600" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552403684526" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_201/jre/lib/ext/java-util-1.4.7.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -315,7 +313,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.48992443" weight="0.32577905" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.8080537" visible="true" weight="0.2917847" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8080537" weight="0.2917847" />
       <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986577" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -475,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-469">
@@ -498,11 +489,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="341" column="34" selection-start-line="341" selection-start-column="34" selection-end-line="341" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="323" column="50" lean-forward="true" selection-start-line="323" selection-start-column="50" selection-end-line="323" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
         </state>
       </provider>
     </entry>
