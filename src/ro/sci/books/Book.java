@@ -131,45 +131,15 @@ public class Book {
         return "Book: " + "nume = '" + nume + '\'' + " / nrPagini = " + nrPagini + " / ISBN " + isbn;
     }
 
-//    /**
-//     * Determines if the two objects are equal and return true, or return false otherwise.
-//     *
-//     * @param o The instance of this class to be compared to.
-//     * @return boolean True if equal. False if not equal.
-//     */
-//    public int compareTo(Book o){
-//        return toString().compareTo(o.toString());
-//    }
-//
     /**
      * Method overriden from the {@link Object} class.
      * Compares memory location and only return true if two reference variable
      * are pointing to same memory location i.e. essentially they are same object.
-     * In this setting, two objects are considered equal if the String parameter name is
+     * In this setting, two objects are considered equal if the String parameter isbn is
      * the same.
      *
      * @return true if the two objects are equal.
      */
-//    @Override
-//    public boolean equals(Object o){
-//        if (this == o) return true;
-//        if (!(o instanceof Book)) return false;
-//        Book book = (Book) o;
-//        return getNume().equals(book.getNume());
-//    }
-//
-//    /**
-//     * Tests for object inequality for this class.
-//     * In this setting, two objects are considered unequal if the String parameter is not the same.
-//     *
-//     * @return the same string for name.
-//     */
-//    @Override
-//    public int hashCode( ){
-//        return Objects.hash(getNume());
-//    }
-
-
     @Override
     public boolean equals(Object o){
         if (this == o) return true;
@@ -178,6 +148,12 @@ public class Book {
         return getIsbn().equals(book.getIsbn());
     }
 
+    /**
+     * Tests for object inequality for this class.
+     * In this setting, two objects are considered unequal if the String parameter isbn is not the same.
+     *
+     * @return the same string for name.
+     */
     @Override
     public int hashCode( ){
         return Objects.hash(getIsbn());
