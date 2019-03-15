@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu" />
+    <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4828">
-              <caret line="54" column="59" selection-start-line="49" selection-start-column="8" selection-end-line="54" selection-end-column="59" />
+            <state relative-caret-position="217">
+              <caret line="386" column="38" selection-start-line="386" selection-start-column="38" selection-end-line="386" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -24,24 +35,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/log/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="204">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="111">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
             </state>
           </provider>
         </entry>
@@ -132,18 +147,19 @@
         <option value="$PROJECT_DIR$/src/java/ro/sci/management/InventoryManagement.java" />
         <option value="$PROJECT_DIR$/src/java/com/sci/management/InventoryManagement.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/Novel.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.txt" />
         <option value="$PROJECT_DIR$/logs/main.log" />
         <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" />
+        <option value="$PROJECT_DIR$/log/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
       </list>
     </option>
   </component>
@@ -219,7 +235,25 @@
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
@@ -232,9 +266,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552689159844" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552693127814" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="F:/Java/Libraries/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+    <property name="last_opened_file_path" value="F:/Java/Libraries/apache-log4j-2.11.2-bin/log4j-api-2.11.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -244,9 +278,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\Git\JavaDev14\scigr141-books\log" />
+      <recent name="F:\Documents\Git\JavaDev14\scigr141-books" />
       <recent name="F:\Documents\Git\JavaDev14\scigr141-books\src\ro\sci\resources" />
       <recent name="F:\Documents\Git\JavaDev14\scigr141-books\logs" />
-      <recent name="F:\Documents\Git\JavaDev14\scigr141-books" />
       <recent name="F:\Documents\Informal\20190122 JavaDev14\20190203 Intelij\scigr141-re-master\src\ro\sci\resources" />
     </key>
   </component>
@@ -320,7 +355,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.15369128" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.10671141" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.19194631" side_tool="true" weight="0.296034" />
@@ -328,8 +363,8 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.48992443" weight="0.32577905" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8080537" weight="0.18696883" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986577" weight="0.3969697" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.8080537" visible="true" weight="0.18696883" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986577" weight="0.39660057" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -486,13 +521,6 @@
     <entry file="file://$PROJECT_DIR$/logs/main.log" />
     <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j2.xml" />
     <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j2.properties" />
-    <entry file="file://$PROJECT_DIR$/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -517,20 +545,37 @@
     <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        <state relative-caret-position="111">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log4j-application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j-application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4828">
-          <caret line="54" column="59" selection-start-line="49" selection-start-column="8" selection-end-line="54" selection-end-column="59" />
+        <state relative-caret-position="217">
+          <caret line="386" column="38" selection-start-line="386" selection-start-column="38" selection-end-line="386" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -601,7 +646,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>log4j-1.2.17</last-edited>
+          <last-edited>apache-log4j-2.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
