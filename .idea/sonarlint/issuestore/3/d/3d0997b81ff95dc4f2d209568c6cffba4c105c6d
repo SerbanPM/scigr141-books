@@ -1,0 +1,8 @@
+
+T
+squid:S106i"9Replace this use of System.out or System.err by a logger.(‰ÃÓ¶ûÿÿÿÿ
+squid:S1450'"eRemove the "numberOfItemsInLibrary" field and declare it as a local variable in the relevant methods.(Ø÷ù˜úÿÿÿÿ
+Esquid:S1068"'Remove this unused "log" private field.(äîÖØ8Ë‡¥ã—-
+T
+squid:S106e"9Replace this use of System.out or System.err by a logger.(Èö»µøÿÿÿÿ
+Gsquid:S1905")Remove this unnecessary cast to "Logger".(äîÖØ8Çè¥ã—-
