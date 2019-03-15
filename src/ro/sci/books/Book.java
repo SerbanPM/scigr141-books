@@ -1,8 +1,6 @@
 package ro.sci.books;
-import java.util.Arrays;
-import java.util.Objects;
 
-import org.apache.commons.collections4.ComparatorUtils;
+import java.util.Objects;
 
 /**
  * <h1>Book</h1>
@@ -31,9 +29,9 @@ public class Book {
     private String nume;
 
     /**
-     * The year this book was published.
+     * The ISBN code of this book.
      */
-    private int anAparitie;
+    private String isbn;
 
     /**
      * Default constructor.
@@ -45,28 +43,28 @@ public class Book {
      * Creates new instances of class Book taking three parameters.
      * It is particularily used to create instances of the Book class using the parameters taken as input from user.
      *
-     * @param nameInArray A String containing the name of this book.
+     * @param nameInArray  A String containing the name of this book.
      * @param pagesInArray An int containing the number of pages of this book.
-     * @param yearInArray An int containing the year this book was published.
+     * @param isbnInArray  A string containing the ISBN code of this book.
      */
-    public Book(String nameInArray, int pagesInArray, int yearInArray){
+    public Book(String nameInArray, int pagesInArray, String isbnInArray){
         this.nume = nameInArray;
         this.nrPagini = pagesInArray;
-        this.anAparitie = yearInArray;
+        this.isbn = isbnInArray;
     }
 
     /**
      * Setter method used to input the paper quality of this art album.
      * It is particularily used to create instances of the Book class using the parameters taken as input from user.
      *
-     * @param nameInArray A String containing the name of this book
-     * @param pagesInArray An int containing the number of pages of this book
-     * @param yearInArray An int containing the year this book was published
+     * @param nume     A String containing the name of this book.
+     * @param nrPagini An int containing the number of pages of this book.
+     * @param isbn     A string containing the ISBN code of this book.
      */
-    public void setNamePageYear(String nume, int nrPagini, int anAparitie){
+    public void setNamePageIsbn(String nume, int nrPagini, String isbn){
         this.nume = nume;
         this.nrPagini = nrPagini;
-        this.anAparitie = anAparitie;
+        this.isbn = isbn;
     }
 
     /**
@@ -110,17 +108,17 @@ public class Book {
      *
      * @return An int containing the year this book was published.
      */
-    public int getAnAparitie( ){
-        return anAparitie;
+    public String getIsbn( ){
+        return isbn;
     }
 
     /**
-     * Setter method used to input the year this book book was published.
+     * Setter method used to input the ISBN code of this book.
      *
-     * @param anAparitie int data type containing the containing the year this book was published.
+     * @param anAparitie string data type containing the ISBN code of this book.
      */
-    public void setAnAparitie(int anAparitie){
-        this.anAparitie = anAparitie;
+    public void setIsbn(String isbn){
+        this.isbn = isbn;
     }
 
     /**
@@ -130,19 +128,19 @@ public class Book {
      */
     @Override
     public String toString( ){
-        return "Book: " + "nume = '" + nume + '\'' + " / nrPagini = " + nrPagini + " / editia " + anAparitie;
+        return "Book: " + "nume = '" + nume + '\'' + " / nrPagini = " + nrPagini + " / ISBN " + isbn;
     }
 
-    /**
-     * Determines if the two objects are equal and return true, or return false otherwise.
-     *
-     * @param o The instance of this class to be compared to.
-     * @return boolean True if equal. False if not equal.
-     */
-    public int compareTo(Book o){
-        return toString().compareTo(o.toString());
-    }
-
+//    /**
+//     * Determines if the two objects are equal and return true, or return false otherwise.
+//     *
+//     * @param o The instance of this class to be compared to.
+//     * @return boolean True if equal. False if not equal.
+//     */
+//    public int compareTo(Book o){
+//        return toString().compareTo(o.toString());
+//    }
+//
     /**
      * Method overriden from the {@link Object} class.
      * Compares memory location and only return true if two reference variable
@@ -152,23 +150,36 @@ public class Book {
      *
      * @return true if the two objects are equal.
      */
+//    @Override
+//    public boolean equals(Object o){
+//        if (this == o) return true;
+//        if (!(o instanceof Book)) return false;
+//        Book book = (Book) o;
+//        return getNume().equals(book.getNume());
+//    }
+//
+//    /**
+//     * Tests for object inequality for this class.
+//     * In this setting, two objects are considered unequal if the String parameter is not the same.
+//     *
+//     * @return the same string for name.
+//     */
+//    @Override
+//    public int hashCode( ){
+//        return Objects.hash(getNume());
+//    }
+
+
     @Override
     public boolean equals(Object o){
         if (this == o) return true;
         if (!(o instanceof Book)) return false;
         Book book = (Book) o;
-        return getNume().equals(book.getNume());
+        return getIsbn().equals(book.getIsbn());
     }
 
-    /**
-     * Tests for object inequality for this class.
-     * In this setting, two objects are considered unequal if the String parameter is not the same.
-     *
-     * @return the same string for name.
-     */
     @Override
     public int hashCode( ){
-        return Objects.hash(getNume());
+        return Objects.hash(getIsbn());
     }
-
 }
