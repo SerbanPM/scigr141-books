@@ -61,6 +61,6 @@ public class Novel extends Book {
      */
     @Override
     public String toString( ){
-        return "Novel: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / editia " + getAnAparitie() + " / gen literar = '" + type + '\'';
+        return "Novel: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / gen literar = '" + type + '\'';
     }
 }
