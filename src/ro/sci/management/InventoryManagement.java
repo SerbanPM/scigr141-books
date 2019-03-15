@@ -7,7 +7,6 @@ import ro.sci.books.Book;
 import ro.sci.books.Novel;
 import ro.sci.books.SculptureAlbum;
 import ro.sci.library.Library;
-import sun.util.logging.resources.logging;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -52,7 +51,7 @@ public class InventoryManagement {
          *
          * @see "log4j.properties" file
          */
-        PropertyConfigurator.configure("log4j.properties");
+        PropertyConfigurator.configure("log/log4j.properties");
 
         /**
          * There are different levels of logging.
@@ -232,7 +231,7 @@ public class InventoryManagement {
          * Searches for a book using the position number inquired by user.
          * Prints the name of the book.
          */
-        System.out.println("\nIntroduceti un numarul pozitiei cautate: ");
+        System.out.println("\nIntroduceti numarul pozitiei cautate: ");
         int myint = keyboard.nextInt();
         String myString = keyboard.nextLine();
         System.out.println("\nCartea aflata la pozitia ~" + myint + "~ este: ");
@@ -352,7 +351,7 @@ public class InventoryManagement {
         setLibrary.add(carte2);
 
         /**
-         * This object has the same name as carte1. The equals() and hashCode() method implemeted in the Book class
+         * This object has the same isbn as carte1. The equals() and hashCode() method implemeted in the Book class
          * ensures that we only find one such object in this LinkedHashSet.
          *
          * {@link #equals(Object()} in Book class.
@@ -362,6 +361,14 @@ public class InventoryManagement {
 
         setLibrary.add(art1);
         setLibrary.add(art2);
+
+        /**
+         * This object has the same ISBN as art1. The equals() and hashCode() method implemeted in the Book class
+         * ensures that we only find one such object in this LinkedHashSet.
+         *
+         * {@link #equals(Object()} in Book class.
+         * {@link #hashCode()} in Book class.
+         */
         setLibrary.add(art3);
 
         // Iterate through the collection
@@ -378,9 +385,6 @@ public class InventoryManagement {
 
         // This is the debug level of logging.
         logger.debug("This is DEBUG");
-        // This is the fatal level of logging.
-        logger.fatal("This is FATAL");
-
 
 
     }
