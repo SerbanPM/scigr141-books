@@ -4,6 +4,7 @@ import ro.sci.books.Book;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * <h1>Library</h1>
@@ -24,6 +25,8 @@ import java.util.List;
  * Contains the "business" part of this library.
  */
 public class Library implements LibraryInterface {
+
+    private static Logger log = (Logger) Logger.getLogger(String.valueOf(Library.class));
 
     /**
      * Represents a list of books that can be found in this library.
