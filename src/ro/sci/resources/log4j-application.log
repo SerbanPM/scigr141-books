@@ -1,0 +1,6 @@
+2019-03-16 00:31:57 DEBUG InventoryManagement:61 - This is DEBUG
+2019-03-16 00:32:15 INFO  InventoryManagement:291 - This is INFO
+2019-03-16 00:32:15 WARN  InventoryManagement:293 - This is WARN
+2019-03-16 00:32:19 ERROR InventoryManagement:323 - This is ERROR
+2019-03-16 00:32:19 DEBUG InventoryManagement:380 - This is DEBUG
+2019-03-16 00:32:19 FATAL InventoryManagement:382 - This is FATAL
