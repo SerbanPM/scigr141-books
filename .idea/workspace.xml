@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu">
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/Array Library.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/ArrayList Library.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
