@@ -46,7 +46,7 @@ public class ArtAlbum extends Book {
      */
     @Override
     public String toString( ){
-        return "ArtAlbum: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / editia " + getAnAparitie() + " / calitateHartie = '" + calitateHartie + "\'";
+        return "ArtAlbum: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / calitateHartie = '" + calitateHartie + "\'";
     }
 
 }
