@@ -26,8 +26,6 @@ import java.util.logging.Logger;
  */
 public class Library implements LibraryInterface {
 
-    private static Logger log = (Logger) Logger.getLogger(String.valueOf(Library.class));
-
     /**
      * Represents a list of books that can be found in this library.
      */
