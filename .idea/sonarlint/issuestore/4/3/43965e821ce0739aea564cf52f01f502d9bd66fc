@@ -1,61 +1,57 @@
 
-\
-squid:S106ñ"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8–×½›˜-
-ˆsquid:S1192±"jDefine a constant instead of duplicating this literal "src/ro/sci/resources/arrayListLibrary.txt" 4 times.(ÈŒ“m8ûï¦›˜-
+Psquid:S1153Ó"1Directly append the argument of String.valueOf().(ÎôÓ8Á¶é˜-
 W
-squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(¤®Â¥8ûï¦›˜-
+squid:S106­"9Replace this use of System.out or System.err by a logger.(¹¿¸8Á¶é˜-
+Psquid:S1153Ñ"1Directly append the argument of String.valueOf().(ÈÔÛÆ8Á¶é˜-
+Lsquid:S1481õ"-Remove this unused "myString" local variable.(î´á8Á¶é˜-
 W
-squid:S106‘"9Replace this use of System.out or System.err by a logger.(²—”î8Ô´ã”˜-
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(¤®Â¥8Á¶é˜-
 \
-squid:S106Û"9Replace this use of System.out or System.err by a logger.(¿ÈÉÑıÿÿÿÿ8–×½›˜-
+squid:S106ö"9Replace this use of System.out or System.err by a logger.(–·…ûÿÿÿÿ8Á¶é˜-
 W
-squid:S106Í"9Replace this use of System.out or System.err by a logger.(Ù„ñ»8ûï¦›˜-
+squid:S106š"9Replace this use of System.out or System.err by a logger.(õ¹¾†8ôé‚é˜-
 W
-squid:S106”"9Replace this use of System.out or System.err by a logger.(¦‘ãİ8ûï¦›˜-
-psquid:S37760"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8¾ñ˜—˜-
-\
-squid:S106Ú"9Replace this use of System.out or System.err by a logger.(÷¦ÁËùÿÿÿÿ8ûï¦›˜-
-osquid:CommentedOutCodeLine§"<This block of commented-out lines of code should be removed.(â¹Á°ûÿÿÿÿ8ûï¦›˜-
-Xsquid:S1191
-"5Use classes from the Java API instead of Sun classes.(é¸âÅúÿÿÿÿ8ã´¾›˜-
-\
-squid:S106î"9Replace this use of System.out or System.err by a logger.(–·…ûÿÿÿÿ8ûï¦›˜-
-Psquid:S1153É"1Directly append the argument of String.valueOf().(ÈÔÛÆ8ûï¦›˜-
-\
-squid:S106©"9Replace this use of System.out or System.err by a logger.(ïÌ“…üÿÿÿÿ8ûï¦›˜-
-vsquid:ModifiersOrderCheck."EReorder the modifiers to comply with the Java Language Specification.(Í‘‰Íûÿÿÿÿ8†İ½š˜-
-\
-squid:S106–"9Replace this use of System.out or System.err by a logger.(¤»À¨ûÿÿÿÿ8ûï¦›˜-
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(¦‘ãİ8Á¶é˜-
 W
-squid:S106ø"9Replace this use of System.out or System.err by a logger.(¯Äüø8–×½›˜-
-csquid:S2095Õ"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÃöÃW8ûï¦›˜-
+squid:S106Õ"9Replace this use of System.out or System.err by a logger.(Ù„ñ»8ŸÏ±é˜-
 \
-squid:S106¬"9Replace this use of System.out or System.err by a logger.(æó¼µùÿÿÿÿ8ûï¦›˜-
-\
-squid:S106"9Replace this use of System.out or System.err by a logger.(õ¾ïûÿÿÿÿ8ûï¦›˜-
-\
-squid:S106½"9Replace this use of System.out or System.err by a logger.(Ş›œüøÿÿÿÿ8–×½›˜-
+squid:S106â"9Replace this use of System.out or System.err by a logger.(÷¦ÁËùÿÿÿÿ8Á¶é˜-
 W
-squid:S106×"9Replace this use of System.out or System.err by a logger.(Ó®İÀ8ûï¦›˜-
+squid:S106ë"9Replace this use of System.out or System.err by a logger.(°ŠÅ¨8Á¶é˜-
+psquid:S3776/"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8¾ñ˜—˜-
 \
-squid:S106ı"9Replace this use of System.out or System.err by a logger.(ÄƒÑûıÿÿÿÿ8ûï¦›˜-
+squid:S106´"9Replace this use of System.out or System.err by a logger.(æó¼µùÿÿÿÿ8Á¶é˜-
+W
+squid:S106Â"9Replace this use of System.out or System.err by a logger.(Ó‹‹8Á¶é˜-
+jsquid:S1192v"GDefine a constant instead of duplicating this literal "Normal" 3 times.(¤·©Âøÿÿÿÿ8… Šé˜-
+vsquid:ModifiersOrderCheck-"EReorder the modifiers to comply with the Java Language Specification.(Í‘‰Íûÿÿÿÿ8úÜ˜-
+W
+squid:S106™"9Replace this use of System.out or System.err by a logger.(²—”î8Á¶é˜-
+ˆsquid:S1192¹"jDefine a constant instead of duplicating this literal "src/ro/sci/resources/arrayListLibrary.txt" 4 times.(ÈŒ“m8Á¶é˜-
 \
-squid:S106ó"9Replace this use of System.out or System.err by a logger.(ªæË¤ùÿÿÿÿ8ûï¦›˜-
-Gsquid:S1148õ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ûï¦›˜-
-Lsquid:S1481í"-Remove this unused "myString" local variable.(î´á8ûï¦›˜-
-W
-squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ĞËÀ®8ûï¦›˜-
-Psquid:S1153Ğ"1Directly append the argument of String.valueOf().(ÎôÓ8–×½›˜-
-W
-squid:S106ã"9Replace this use of System.out or System.err by a logger.(°ŠÅ¨8ûï¦›˜-
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ïÌ“…üÿÿÿÿ8Á¶é˜-
 \
-squid:S106ë"9Replace this use of System.out or System.err by a logger.(Ø•Òÿÿÿÿÿ8ûï¦›˜-
-W
-squid:S106’"9Replace this use of System.out or System.err by a logger.(õ¹¾†8ûï¦›˜-
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(¿ÈÉÑıÿÿÿÿ8Á¶é˜-
 V
-squid:S106Ô"9Replace this use of System.out or System.err by a logger.(õ¨Â8–×½›˜-
+squid:S106×"9Replace this use of System.out or System.err by a logger.(õ¨Â8Á¶é˜-
+\
+squid:S106ó"9Replace this use of System.out or System.err by a logger.( ğÌ¹ÿÿÿÿÿ8Á¶é˜-
 W
-squid:S106ª"9Replace this use of System.out or System.err by a logger.(¹¿¸8–×½›˜-
-jsquid:S1192k"GDefine a constant instead of duplicating this literal "Normal" 3 times.(¤·©Âøÿÿÿÿ8ûï¦›˜-
+squid:S106ß"9Replace this use of System.out or System.err by a logger.(Ó®İÀ8Á¶é˜-
+csquid:S2095İ"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÃöÃW8Á¶é˜-
+\
+squid:S106…"9Replace this use of System.out or System.err by a logger.(ÄƒÑûıÿÿÿÿ8Á¶é˜-
 W
-squid:S106¿"9Replace this use of System.out or System.err by a logger.(Ó‹‹8–×½›˜-
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(¯Äüø8Á¶é˜-
+\
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(õ¾ïûÿÿÿÿ8Á¶é˜-
+W
+squid:S106§"9Replace this use of System.out or System.err by a logger.(ĞËÀ®8Á¶é˜-
+\
+squid:S106ü"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8Á¶é˜-
+\
+squid:S106À"9Replace this use of System.out or System.err by a logger.(Ş›œüøÿÿÿÿ8Á¶é˜-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤»À¨ûÿÿÿÿ8Á¶é˜-
+\
+squid:S106û"9Replace this use of System.out or System.err by a logger.(ªæË¤ùÿÿÿÿ8Á¶é˜-
