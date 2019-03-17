@@ -19,7 +19,13 @@ O
 .src/ro/sci/management/InventoryManagement.java,4\3\43965e821ce0739aea564cf52f01f502d9bd66fc
 Y
 )src/ro/sci/resources/arrayListLibrary.txt,b\9\b98dcb406edd7a4b56615a349de371a72c26137b
-@
-log4j.properties,7\3\7330e4252652b61093498eabc26c3cadee5d89b7
 Z
 *src/ro/sci/resources/log4j-application.log,c\4\c40a5f50d14dfc0e7232fd1f8fc8c44b7a676d0a
+D
+log/log4j.properties,7\a\7a8550fd86b2e68b5d5b6dc2273144de0957189f
+c
+3test/ro/sci/management/InventoryManagementTest.java,8\7\87fc884e5dd1a80d60549f2072a6c68ba4be0927
+U
+%src/ro/sci/resources/arrayLibrary.txt,2\0\201c8ae828ccb7086e584730b79f6670c5e7ff28
+T
+$test/ro/sci/library/LibraryTest.java,a\b\ab6b670d541e4d959f5e86289dde0bbf259fa3ba
