@@ -37,7 +37,20 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="log4j-1.2.17" level="project" />
-    <orderEntry type="library" name="apache-log4j-2.11" level="project" />
+    <orderEntry type="library" name="junit-41" level="project" />
+    <orderEntry type="library" name="log4j-1.2.171" level="project" />
+    <orderEntry type="library" name="commons-collections4-4.3" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.3">
+        <CLASSES>
+          <root url="jar://F:/Java/Libraries/junit-jupiter-api-5.4.0/junit-jupiter-api-5.4.0.jar!/" />
+          <root url="jar://F:/Java/Libraries/junit-jupiter-api-5.4.0/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://F:/Java/Libraries/junit-jupiter-api-5.4.0/opentest4j-1.1.1.jar!/" />
+          <root url="jar://F:/Java/Libraries/junit-jupiter-api-5.4.0/junit-platform-commons-1.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
