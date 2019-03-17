@@ -47,17 +47,29 @@ public class InventoryManagement {
     public static void main(String[] args){
 
         /**
-         * Initialize the properties file
+         * Initializes the properties file.
          *
-         * @see "log4j.properties" file
+         * @see "log4j.properties" file.
          */
         PropertyConfigurator.configure("log/log4j.properties");
 
         /**
          * There are different levels of logging.
-         * Depending on the level specified in the log4j.properties file, it skips the above levels
+         * Depending on the level specified in the log4j.properties file, it skips the above levels.
+         * The various levels of logging are used for particular situations; in order to keep them accounted
+         * for, only for this homework, i`ve placed them in one place.
+         *
          */
+
+
+        // This is the debug level of logging - use at the start and at the end of the function
         logger.debug("This is DEBUG");
+        // The info level of logging - for logging parameters just before calling an external function.
+        logger.info("This is INFO");
+        // The warn level of logging - for logging suspicious input or state, where the program  will default to system settings.
+        logger.warn("This is WARN");
+        // The error level of logging - for logging errors, for example trying to open file that is not there.
+        logger.error("Sorry, something wrong!");
 
         // Creates objects with the given arguments.
         Book carte1 = new Book();
@@ -162,9 +174,6 @@ public class InventoryManagement {
         // Writes and prints the item list.
         List cartileDinBiblioteca = librarie.getListOfBooks();
 
-        // This line is used to verify the output, there is no need to print it by default
-        // System.out.println("\n" + cartileDinBiblioteca);
-
         System.out.println("\n============ ArrayList ============");
 
         // Counts and prints the number of the items in the list.
@@ -241,7 +250,7 @@ public class InventoryManagement {
             String[] arrayLines = allLines.toArray(new String[0]);
             System.out.println(arrayLines[myint + 2]);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Sorry, something wrong!", e);
         }
 
 
@@ -286,12 +295,7 @@ public class InventoryManagement {
             System.out.println((counter + 1) + ") " + booksInArray[counter]);
         }
 
-        // The info level of logging - for logging parameters just before calling an external function.
-        logger.info("This is INFO");
-        // The warn level of logging - for logging suspicious input or state, where the program  will default to system settings.
-        logger.warn("This is WARN");
-
-        /**
+       /**
          * Takes input from user and calculates de index of the item to be removed.
          */
         System.out.println("\nIntroduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
@@ -383,8 +387,7 @@ public class InventoryManagement {
             System.out.println("\nThe library does contain this book.");
         }
 
-        // This is the debug level of logging.
-        logger.debug("This is DEBUG");
+
 
 
     }
