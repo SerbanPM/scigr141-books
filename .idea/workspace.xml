@@ -1,27 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="exemplu">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_171.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ac6f4aebf0afcd6ea4a140c5b6d923cad8dbfea" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ac6f4aebf0afcd6ea4a140c5b6d923cad8dbfea" afterDir="false" />
+    <list default="true" id="718865a2-617d-49a5-b4fd-5487b2c24f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_171.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scigr141-books.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ac6f4aebf0afcd6ea4a140c5b6d923cad8dbfea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/201c8ae828ccb7086e584730b79f6670c5e7ff28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24139dae656713ba861751fb2c2ac38839349a7a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36940565cded8143c51c50d88ff1ea76b7957f0b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0997b81ff95dc4f2d209568c6cffba4c105c6d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0997b81ff95dc4f2d209568c6cffba4c105c6d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7330e4252652b61093498eabc26c3cadee5d89b7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97dd5b2666454753a64c05a0858905d2929ca51" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97dd5b2666454753a64c05a0858905d2929ca51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a8550fd86b2e68b5d5b6dc2273144de0957189f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87fc884e5dd1a80d60549f2072a6c68ba4be0927" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab6b670d541e4d959f5e86289dde0bbf259fa3ba" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab6b670d541e4d959f5e86289dde0bbf259fa3ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b98dcb406edd7a4b56615a349de371a72c26137b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c40a5f50d14dfc0e7232fd1f8fc8c44b7a676d0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97dd5b2666454753a64c05a0858905d2929ca51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d71ef9fccd9ff6fcf42858effa90f7c4f23b5ff6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb5829c0718af8a66a2208753ac512676b75963d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe2627249e622a6beca8b6847403f716d7115385" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/ArtAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Novel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/LibraryInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/ro/sci/library/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,24 +62,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/scigr141_books$InventoryManagementTest_main.ic" NAME="InventoryManagementTest.main Coverage Results" MODIFIED="1552808942900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ro.sci.management.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/scigr141_books$LibraryTest_getListOfBooks.ic" NAME="LibraryTest.getListOfBooks Coverage Results" MODIFIED="1552831416899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>ro.sci.library.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="209" />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+            <state relative-caret-position="1003">
+              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,179 +77,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="67">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5202">
+              <caret line="317" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="317" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="79" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="499">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ł</find>
-    </findStrings>
-    <dirStrings>
-      <dir>F:\Documents\Git\JavaDev14\scigr141-books</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/SculptureArtAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Novel.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Way.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/KeyboardReading3.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/SculptureAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/ArtAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Main.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Book.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Main1.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/BookHandling.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/BookManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/Library.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/InventoryManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/SecondLibrary.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/FirstHomeworkLibrary.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/SetLibrary.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/ListManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/RefactorListLibrary.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/ArrayListManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/ArrayManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/ArrayOfBooks.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/ArrayLibrary.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/ArrayListLibrary.java" />
-        <option value="$PROJECT_DIR$/src/java/ro/sci/management/InventoryManagement.java" />
-        <option value="$PROJECT_DIR$/src/java/com/sci/management/InventoryManagement.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/Novel.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.txt" />
-        <option value="$PROJECT_DIR$/logs/main.log" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j2.properties" />
-        <option value="$PROJECT_DIR$/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" />
-        <option value="$PROJECT_DIR$/log/log4j.properties" />
-        <option value="$PROJECT_DIR$/test/testing/LibraryTest.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
-        <option value="$PROJECT_DIR$/test/ro/sci/management/InventoryManagementTest.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
         <option value="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
       </list>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="947" />
-    <option name="width" value="953" />
-    <option name="height" value="1023" />
+    <option name="x" value="-9" />
+    <option name="width" value="1030" />
+    <option name="height" value="990" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="scigr141-books" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Test" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Test" type="616d4139:PackageViewModuleNode" />
-              <item name="ro.sci" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Test" type="616d4139:PackageViewModuleNode" />
-              <item name="ro.sci" type="1f31426a:PackageElementNode" />
-              <item name="management" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Test" type="616d4139:PackageViewModuleNode" />
-              <item name="ro.sci" type="1f31426a:PackageElementNode" />
-              <item name="resources" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,11 +137,6 @@
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,20 +144,6 @@
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
@@ -276,63 +155,29 @@
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path" value="F:\Java\Libraries\junit-jupiter-api-5.4.0" />
-    <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552852496398" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="F:/Java/Libraries/commons-collections4-4.3/commons-collections4-4.3.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553020956499" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/log4j.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="ro.sci.management" />
-      <recent name="ro.sci.library" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Documents\Git\JavaDev14\scigr141-books\log" />
-      <recent name="F:\Documents\Git\JavaDev14\scigr141-books" />
-      <recent name="F:\Documents\Git\JavaDev14\scigr141-books\src\ro\sci\resources" />
-      <recent name="F:\Documents\Git\JavaDev14\scigr141-books\logs" />
-      <recent name="F:\Documents\Informal\20190122 JavaDev14\20190203 Intelij\scigr141-re-master\src\ro\sci\resources" />
-    </key>
-  </component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Gradle tasks" flag="false" />
-      <visibility group="Maven goals" flag="false" />
-      <visibility group="Recent projects" flag="false" />
-      <visibility group="Run configurations" flag="false" />
-    </myKeys>
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,22 +191,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
-    <configuration name="InventoryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sci.management.InventoryManagement" />
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sci.management.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LibraryTest.testRemoveBook">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
+      <module name="scigr141-books" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ro.sci.library.*" />
@@ -375,24 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sci.library.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ro.sci.library" />
-      <option name="MAIN_CLASS_NAME" value="ro.sci.library.LibraryTest" />
-      <option name="METHOD_NAME" value="testAddBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryTest.testRemoveBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
+      <module name="scigr141-books" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ro.sci.library.*" />
@@ -407,18 +223,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.LibraryTest.testAddBook" />
-      <item itemvalue="JUnit.LibraryTest.testRemoveBook" />
-      <item itemvalue="JUnit.LibraryTest" />
-      <item itemvalue="Application.InventoryManagement" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest" />
-        <item itemvalue="Application.InventoryManagement" />
         <item itemvalue="JUnit.LibraryTest.testRemoveBook" />
-        <item itemvalue="JUnit.LibraryTest.testAddBook" />
+        <item itemvalue="JUnit.LibraryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -427,317 +235,141 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4dafb08a-9832-4689-92de-f9db669d3870" name="Default Changelist" comment="" />
-      <created>1549553803630</created>
+      <changelist id="718865a2-617d-49a5-b4fd-5487b2c24f5e" name="Default Changelist" comment="" />
+      <created>1553019101068</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1549553803630</updated>
+      <updated>1553019101068</updated>
     </task>
-    <task id="LOCAL-00001" summary="exemplu">
-      <created>1549573401371</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1549573401371</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testRemoveBook - 2019.03.17 at 20h 44m 53s.xml">
+    <history-entry file="LibraryTest - 2019.03.19 at 20h 16m 49s.xml">
+      <configuration name="LibraryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 17m 28s.xml">
       <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 20h 49m 42s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testAddBook - 2019.03.17 at 20h 58m 47s.xml">
-      <configuration name="LibraryTest.testAddBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testRemoveBook - 2019.03.17 at 20h 58m 52s.xml">
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 17m 40s.xml">
       <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testRemoveBook - 2019.03.17 at 21h 06m 20s.xml">
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 17m 51s.xml">
       <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 21h 08m 30s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 18m 54s.xml">
+      <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 21h 09m 48s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 21m 25s.xml">
+      <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 21h 10m 11s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 21m 41s.xml">
+      <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 21h 10m 30s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 25m 12s.xml">
+      <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest - 2019.03.17 at 21h 54m 16s.xml">
-      <configuration name="LibraryTest" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRemoveBook - 2019.03.19 at 20h 25m 35s.xml">
+      <configuration name="LibraryTest.testRemoveBook" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11275168" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.19194631" side_tool="true" weight="0.296034" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.48322147" weight="0.28328612" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.48992443" weight="0.32577905" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.8080537" weight="0.35977337" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986577" weight="0.39660057" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="SonarLint" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16644295" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.19194631" side_tool="true" weight="0.296034" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.48322147" weight="0.28470254" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.48992443" weight="0.32577905" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.8080537" visible="true" weight="0.2719547" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4986577" weight="0.398017" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="SonarLint" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3295302" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.24966443" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="exemplu" />
-    <option name="LAST_COMMIT_MESSAGE" value="exemplu" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>it1.hasNext()</expression-string>
+        <expression-string>carte.setNume(&quot;dtxdt&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(Novel) book</expression-string>
+        <expression-string>carte</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>testLibrary</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>testLibrary.getBook(0)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/KeyboardReading3.java" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/text.txt" />
-    <entry file="file://$PROJECT_DIR$/out.txt" />
-    <entry file="file://$PROJECT_DIR$/centralizator.txt" />
-    <entry file="file://$PROJECT_DIR$/elementeLibrarie.txt" />
-    <entry file="file://$PROJECT_DIR$/null" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/Elemente Librarie.txt" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/SetLibrary.java" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/management/ArrayManagement.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/Test/ro/sci/library/ArrayOfBooks.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/Test/ro/sci/library/ArrayLibrary.class" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/ArrayLibrary.java" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/Elemente Librarie.txt" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64652">
-          <caret line="1241" column="4" selection-start-line="1241" selection-start-column="4" selection-end-line="1241" selection-end-column="4" />
-          <folding>
-            <element signature="e#57824#60391#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/ComparableTimSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Test/ro/sci/library/LibraryInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.txt" />
-    <entry file="file://$PROJECT_DIR$/logs/main.log" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j2.xml" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j2.properties" />
-    <entry file="file://$PROJECT_DIR$/log/log4j-application.log" />
-    <entry file="file://$PROJECT_DIR$/log4j-application.log" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="95" lean-forward="true" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="30" column="60" lean-forward="true" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="37" lean-forward="true" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testing/LibraryTest.java" />
-    <entry file="file://$PROJECT_DIR$/Test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ro/sci/management/InventoryManagementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ro/sci/library/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="79" selection-start-line="11" selection-start-column="1" selection-end-line="14" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="67">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="1003">
+          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
           <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="61" column="11" lean-forward="true" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="5202">
+          <caret line="317" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="317" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
@@ -793,12 +425,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Test</last-edited>
+          <last-edited>scigr141-books</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -806,7 +449,18 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-collections4-4.3</last-edited>
+          <last-edited>hamcrest-core-1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

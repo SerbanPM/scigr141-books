@@ -1,5 +1,8 @@
 package ro.sci.books;
 
+import org.apache.log4j.Logger;
+import ro.sci.management.InventoryManagement;
+
 import java.util.Objects;
 
 /**
@@ -17,6 +20,11 @@ import java.util.Objects;
  * Represents any category of books that can be found in this library.
  */
 public class Book {
+
+    /**
+     * Creates a logger object for this class.
+     */
+    final static Logger logger = Logger.getLogger(Book.class);
 
     /**
      * The number of pages of this book.

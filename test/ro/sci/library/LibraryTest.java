@@ -1,15 +1,17 @@
 package ro.sci.library;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import ro.sci.books.Book;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * <h1>LibraryTest</h1>
- *
+ * <p>
  * Tests that the addBook() method implemented in the Library class is performing as expected.
  * Tests that the remove() method implemented in the Library class is performing as expected.
  *
@@ -18,13 +20,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @since 20190122
  */
 
+
+
 public class LibraryTest {
+
+    final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
 
     Library testLibrary;
 
     @Before
     public void before( ){
-        System.out.println("Initializing test...");
+        System.out.println("\nInitializing test...");
     }
 
     /**
@@ -32,6 +38,7 @@ public class LibraryTest {
      */
     @Before
     public void init( ){
+        BasicConfigurator.configure();
         testLibrary = new Library();
     }
 
@@ -44,7 +51,7 @@ public class LibraryTest {
         Book carte = new Book();
         testLibrary.addBook(carte);
         int numberOfItemsInLibrary = testLibrary.getItemCount();
-        assertEquals(1, numberOfItemsInLibrary);
+        Assert.assertEquals(1, numberOfItemsInLibrary);
     }
 
     /**
@@ -54,9 +61,13 @@ public class LibraryTest {
     @Test
     public void testRemoveBook( ){
         Book carte = new Book();
+        testLibrary.addBook(carte);
+
+        Assert.assertEquals(carte, testLibrary.getBook(0));
+
         testLibrary.remove(carte);
         int numberOfItemsInLibrary = testLibrary.getItemCount();
-        assertEquals(0, numberOfItemsInLibrary);
+        Assert.assertEquals(0, numberOfItemsInLibrary);
     }
 
     @After

@@ -1,7 +1,7 @@
 package ro.sci.management;
 
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import ro.sci.books.ArtAlbum;
 import ro.sci.books.Book;
 import ro.sci.books.Novel;
@@ -40,7 +40,7 @@ import java.util.*;
 public class InventoryManagement {
 
     /**
-     * Create the logger object.
+     * Creates a logger object for this class.
      */
     final static Logger logger = Logger.getLogger(InventoryManagement.class);
 
@@ -51,7 +51,7 @@ public class InventoryManagement {
          *
          * @see "log4j.properties" file.
          */
-        PropertyConfigurator.configure("log/log4j.properties");
+        BasicConfigurator.configure();
 
         /**
          * There are different levels of logging.
@@ -59,17 +59,18 @@ public class InventoryManagement {
          * The various levels of logging are used for particular situations; in order to keep them accounted
          * for, only for this homework, i`ve placed them in one place.
          *
+         * This is the debug level of logging - use at the start and at the end of the function
+         *  logger.debug("This is tew gaseste  DEBUG");
+         *
+         *  The info level of logging - for logging parameters just before calling an external function.
+         *  logger.info("This is INFO");
+         *
+         *  The warn level of logging - for logging suspicious input or state, where the program  will default to system settings.
+         *  logger.warn("This is WARN");
+         *
+         *  The error level of logging - for logging errors, for example trying to open file that is not there.
+         *  logger.error("Sorry, something wrong!");
          */
-
-
-        // This is the debug level of logging - use at the start and at the end of the function
-        logger.debug("This is DEBUG");
-        // The info level of logging - for logging parameters just before calling an external function.
-        logger.info("This is INFO");
-        // The warn level of logging - for logging suspicious input or state, where the program  will default to system settings.
-        logger.warn("This is WARN");
-        // The error level of logging - for logging errors, for example trying to open file that is not there.
-        logger.error("Sorry, something wrong!");
 
         // Creates objects with the given arguments.
         Book carte1 = new Book();
@@ -218,12 +219,14 @@ public class InventoryManagement {
          */
         Scanner readArrayListInventory = null;
         try {
+            logger.info("reading file");
             readArrayListInventory = new Scanner(new File("src/ro/sci/resources/arrayListLibrary.txt"));
             while (readArrayListInventory.hasNextLine()) {
-                System.out.println(readArrayListInventory.nextLine());
+                logger.info("syso line from file: " + readArrayListInventory.nextLine());
             }
+            logger.info("file reading done");
         } catch (FileNotFoundException e) {
-            System.out.println("Exception occured: " + e);
+            logger.error("file not found " + e.getMessage());
         }
 
 
@@ -295,7 +298,7 @@ public class InventoryManagement {
             System.out.println((counter + 1) + ") " + booksInArray[counter]);
         }
 
-       /**
+        /**
          * Takes input from user and calculates de index of the item to be removed.
          */
         System.out.println("\nIntroduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
@@ -305,12 +308,12 @@ public class InventoryManagement {
         /**
          * Removes an item from the array, copying the remaining items in a different array with a length diminished by one.
          */
-        Book[] reducedArray = new Book[booksInArray.length - 1];
+        Book[] diminishedArray = new Book[booksInArray.length - 1];
         for (int i = 0; i < booksInArray.length; i++) {
             if (i < indexToRemove) {
-                reducedArray[i] = booksInArray[i];
+                diminishedArray[i] = booksInArray[i];
             } else if (i > indexToRemove) {
-                reducedArray[i - 1] = booksInArray[i];
+                diminishedArray[i - 1] = booksInArray[i];
             }
         }
 
@@ -318,19 +321,17 @@ public class InventoryManagement {
          * Prints the new array.
          */
         System.out.println("\nAu mai ramas in biblioteca urmatoarele titluri:");
-        for (int counter = 0; counter < reducedArray.length; counter++) {
-            System.out.println((counter + 1) + ") " + reducedArray[counter]);
+        for (int counter = 0; counter < diminishedArray.length; counter++) {
+            System.out.println((counter + 1) + ") " + diminishedArray[counter]);
         }
 
-        // This is the error level of logging.
-        logger.error("This is ERROR");
         /**
          * Writes a file containing the list of objects in the array.
          */
         File arrayInventory = new File("src/ro/sci/resources/arrayLibrary.txt");
         try (BufferedWriter fileWriter02 = new BufferedWriter(new FileWriter("src/ro/sci/resources/arrayLibrary.txt"))) {
 
-            String arrayToFile = Arrays.toString(reducedArray);
+            String arrayToFile = Arrays.toString(diminishedArray);
             String centralizatorCarti02 = arrayToFile.substring(1, arrayToFile.length() - 1);
             String[] elementeLibrarie02 = centralizatorCarti02.split(",\\s");
             fileWriter02.write("\nDupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:\n");
@@ -386,8 +387,6 @@ public class InventoryManagement {
         if (setLibrary.contains(carte2)) {
             System.out.println("\nThe library does contain this book.");
         }
-
-
 
 
     }

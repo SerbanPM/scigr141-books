@@ -11,10 +11,18 @@ package ro.sci.books;
  * @since 20190122
  */
 
+import org.apache.log4j.Logger;
+import ro.sci.management.InventoryManagement;
+
 /**
  * Represents a category of books that can be found in this library.
  */
 public class Novel extends Book {
+
+    /**
+     * Creates a logger object for this class.
+     */
+    final static Logger logger = Logger.getLogger(Novel.class);
 
     /**
      * The type of the novel.

@@ -1,14 +1,14 @@
 package ro.sci.library;
 
+import org.apache.log4j.Logger;
 import ro.sci.books.Book;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 /**
  * <h1>Library</h1>
- *
+ * <p>
  * Implements {@link #addBook} method which is adding an object of type Book to the array list.
  * Implements {@link #getItemCount} method which Counts the objects in the list using the size() method.
  * Implements {@link #search} method which is searching for a title in the array list using the name of the object.
@@ -25,6 +25,11 @@ import java.util.logging.Logger;
  * Contains the "business" part of this library.
  */
 public class Library implements LibraryInterface {
+
+    /**
+     * Creates a logger object for this class.
+     */
+    final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
 
     /**
      * Represents a list of books that can be found in this library.
@@ -68,10 +73,12 @@ public class Library implements LibraryInterface {
     /**
      * Adds an object of type Book to the array list.
      *
-     * @param carte An object of type Book.
+     * @param book An object of type Book.
      */
     public void addBook(Book book){
+        logger.info("adding book");
         listOfBooks.add(book);
+        logger.info("book added");
     }
 
     /**
@@ -84,7 +91,7 @@ public class Library implements LibraryInterface {
         return numberOfItemsInLibrary;
     }
 
-     /**
+    /**
      * Searches for a title in the array list using the name of the object.
      * <p>It compares the name of the searched object with the names of the objects
      * from the list using the equals method. Prints a different message for both
@@ -111,9 +118,22 @@ public class Library implements LibraryInterface {
      * @param book The instance to be removed.
      */
     public void remove(Book book){
+        logger.info("removing book");
         listOfBooks.remove(book);
+        logger.info("book removed");
     }
 
+    public Book getBook(int index){
+        return listOfBooks.get(index);
+    }
+
+
+
+    public Book[] arrayOfBooks = new Book[0];
+
+    public void removeFromArray(Book book){
+
+    }
 
 }
 

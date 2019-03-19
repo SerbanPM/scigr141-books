@@ -1,7 +1,9 @@
 
-T
-squid:S106c"9Replace this use of System.out or System.err by a logger.(Èö»µøÿÿÿÿ
-T
-squid:S106g"9Replace this use of System.out or System.err by a logger.(‰ÃÓ¶ûÿÿÿÿ
-squid:S1450%"eRemove the "numberOfItemsInLibrary" field and declare it as a local variable in the relevant methods.(Ø÷ù˜úÿÿÿÿ
-`squid:UselessImportCheck"5Remove this unused import 'java.util.logging.Logger'.(ƒ¥óš8ÑÙŞ˜-
+squid:S1450*"eRemove the "numberOfItemsInLibrary" field and declare it as a local variable in the relevant methods.(Ø÷ù˜úÿÿÿÿ
+[
+squid:S106j"9Replace this use of System.out or System.err by a logger.(Èö»µøÿÿÿÿ8Úİ€º™-
+[
+squid:S106n"9Replace this use of System.out or System.err by a logger.(‰ÃÓ¶ûÿÿÿÿ8Úİ€º™-
+“"squid:ClassVariableVisibilityCheck„"XMake arrayOfBooks a static final constant or non-public and provide accessors if needed.(à¶Â‘ùÿÿÿÿ8ÄĞ‚º™-
+osquid:ModifiersOrderCheck "EReorder the modifiers to comply with the Java Language Specification.(á˜…Ğıÿÿÿÿ
+Ÿsquid:S1186†"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÀÍĞ(8š„‡º™-

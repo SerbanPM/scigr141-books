@@ -11,10 +11,18 @@ package ro.sci.books;
  * @since 20190122
  */
 
+import org.apache.log4j.Logger;
+import ro.sci.management.InventoryManagement;
+
 /**
  * Represents a category of art albums that can be found in this library.
  */
 public class SculptureAlbum extends ArtAlbum {
+
+    /**
+     * Creates a logger object for this class.
+     */
+    final static Logger logger = Logger.getLogger(SculptureAlbum.class);
 
     /**
      * Represents the genre of the ArtAlbum.

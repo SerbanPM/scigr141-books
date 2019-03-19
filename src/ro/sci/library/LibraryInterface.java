@@ -1,4 +1,5 @@
 package ro.sci.library;
+import org.apache.log4j.Logger;
 import ro.sci.books.Book;
 
 /**
@@ -12,6 +13,8 @@ import ro.sci.books.Book;
  * @since 20190122
  */
 public interface LibraryInterface {
+
+    final static org.apache.log4j.Logger logger = Logger.getLogger(LibraryInterface.class);
 
     /**
      * Adds an object of type Book to the array list.
