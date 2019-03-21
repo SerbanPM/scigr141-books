@@ -27,3 +27,8 @@ X
 (src/ro/sci/library/LibraryInterface.java,f\e\fe2627249e622a6beca8b6847403f716d7115385
 P
  src/ro/sci/main/BookManager.java,e\f\efc4b5173caa738055acdee56f5f9f8493a7c052
+>
+.gitattributes,2\4\24139dae656713ba861751fb2c2ac38839349a7a
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

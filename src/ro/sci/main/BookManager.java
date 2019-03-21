@@ -232,7 +232,7 @@ class BookManager {
             }
 
         } catch (IOException e) {
-            logger.info("General I/O exception for file: " + arrayListInventory.toString());
+            logger.error("General I/O exception for file: " + arrayListInventory.toString());
         }
 
         /**
@@ -375,7 +375,7 @@ class BookManager {
             }
 
         } catch (IOException e) {
-            logger.info("General I/O exception for file: " + arrayInventory.toString());
+            logger.error("General I/O exception for file: " + arrayInventory.toString());
         }
         keyboard.close();
 
