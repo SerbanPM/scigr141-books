@@ -1,8 +1,6 @@
 
 T
 $test/ro/sci/library/LibraryTest.java,a\b\ab6b670d541e4d959f5e86289dde0bbf259fa3ba
-^
-.src/ro/sci/management/InventoryManagement.java,4\3\43965e821ce0739aea564cf52f01f502d9bd66fc
 O
 src/ro/sci/library/Library.java,3\d\3d0997b81ff95dc4f2d209568c6cffba4c105c6d
 K
@@ -21,8 +19,6 @@ T
 $src/ro/sci/books/SculptureAlbum.java,d\7\d71ef9fccd9ff6fcf42858effa90f7c4f23b5ff6
 J
 src/ro/sci/books/Book.java,c\9\c97dd5b2666454753a64c05a0858905d2929ca51
-]
--src/ro/sci/books/GenericWrittenSomething.java,a\5\a59e30fcc549d31d343df7d97d6ca8dd80220da3
 V
 &src/ro/sci/books/GenericBiography.java,c\7\c7d4f282e34dba4deeab14a0516c0d1180883fb6
 W

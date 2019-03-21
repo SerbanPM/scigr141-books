@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718865a2-617d-49a5-b4fd-5487b2c24f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ro/sci/library/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a59e30fcc549d31d343df7d97d6ca8dd80220da3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efc4b5173caa738055acdee56f5f9f8493a7c052" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efc4b5173caa738055acdee56f5f9f8493a7c052" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/GenericBiography.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/GenericBiography.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/management/InventoryManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/main/BookManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/META-INF/Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/BLALAGlog4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/META-INF/scigr141-books.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/GenericBiography.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/main/BookManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayLibrary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Test/META-INF/Test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/scigr141-books/ro/sci/library/LibraryTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +39,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/main/BookManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7378">
-              <caret line="434" column="50" selection-start-line="434" selection-start-column="50" selection-end-line="434" selection-end-column="50" />
+            <state relative-caret-position="621">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -81,20 +94,23 @@
         <option value="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/main/BookManager.java" />
+        <option value="$PROJECT_DIR$/test/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="848" />
-    <option name="y" value="7" />
-    <option name="width" value="1079" />
-    <option name="height" value="1027" />
+    <option name="x" value="845" />
+    <option name="y" value="5" />
+    <option name="width" value="1080" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,68 +120,16 @@
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sci" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553178322744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191889778" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -191,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BookManager">
     <configuration name="BookManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.sci.main.BookManager" />
       <module name="scigr141-books" />
@@ -293,14 +257,13 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15369128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16174497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.44759208" />
@@ -314,6 +277,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3280116" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -387,9 +351,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ro/sci/resources/log4j-application.log" />
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayLinkedHashSet.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayLinkedHashSet.txt" />
     <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -429,13 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/CustomException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -480,13 +435,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/library/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/main/BookManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7378">
-          <caret line="434" column="50" selection-start-line="434" selection-start-column="50" selection-end-line="434" selection-end-column="50" />
+        <state relative-caret-position="621">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
