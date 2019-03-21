@@ -1,5 +1,4 @@
 
-Gsquid:S2160"+Override the "equals" method in this class.(êöì¦şÿÿÿÿ
-ksquid:UselessImportCheck"BRemove this unused import 'ro.sci.management.InventoryManagement'.(°öå°ûÿÿÿÿ
-osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ñäÃèÿÿÿÿÿ
-isquid:UnusedPrivateMethod+"8Remove this unused private "SculptureAlbum" constructor.(´‹Ç£øÿÿÿÿ8•àè™-
+isquid:UnusedPrivateMethod*"8Remove this unused private "SculptureAlbum" constructor.(´‹Ç£øÿÿÿÿ8ùşÏö™-
+Gsquid:S2160"+Override the "equals" method in this class.(êöì¦şÿÿÿÿ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ñäÃèÿÿÿÿÿ

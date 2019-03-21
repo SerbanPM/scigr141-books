@@ -23,3 +23,11 @@ J
 src/ro/sci/books/Book.java,c\9\c97dd5b2666454753a64c05a0858905d2929ca51
 ]
 -src/ro/sci/books/GenericWrittenSomething.java,a\5\a59e30fcc549d31d343df7d97d6ca8dd80220da3
+V
+&src/ro/sci/books/GenericBiography.java,c\7\c7d4f282e34dba4deeab14a0516c0d1180883fb6
+W
+'src/ro/sci/library/CustomException.java,1\9\1940d91558fde9af95d2035a50e0789e7b4b9b08
+X
+(src/ro/sci/library/LibraryInterface.java,f\e\fe2627249e622a6beca8b6847403f716d7115385
+P
+ src/ro/sci/main/BookManager.java,e\f\efc4b5173caa738055acdee56f5f9f8493a7c052

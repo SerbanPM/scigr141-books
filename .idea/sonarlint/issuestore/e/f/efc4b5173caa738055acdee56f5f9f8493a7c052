@@ -1,0 +1,8 @@
+
+Ssquid:S1656Ώ"/Remove or correct this useless self-assignment.(™¦¦όÿÿÿÿ8Ε‚-
+Gsquid:S1148Ό"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Ε‚-
+psquid:S3776<"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ηµν‘8υπ“ι™-
+jsquid:S1192q"GDefine a constant instead of duplicating this literal "Normal" 3 times.(¤·©Βψÿÿÿÿ8υπ“ι™-
+squid:S1192Ο"jDefine a constant instead of duplicating this literal "src/ro/sci/resources/arrayListLibrary.txt" 4 times.(Θ“m8‹ΪΦϊ™-
+Lsquid:S1481"-Remove this unused "myString" local variable.(ξ΄α8‹ΪΦϊ™-
+qsquid:ModifiersOrderCheck:"EReorder the modifiers to comply with the Java Language Specification.(¨΄γ8υπ“ι™-

@@ -1,7 +1,6 @@
 package ro.sci.books;
 
 import org.apache.log4j.Logger;
-import ro.sci.management.InventoryManagement;
 
 import java.util.Objects;
 
@@ -61,19 +60,6 @@ public class Book {
         this.isbn = isbnInArray;
     }
 
-    /**
-     * Setter method used to input the paper quality of this art album.
-     * It is particularily used to create instances of the Book class using the parameters taken as input from user.
-     *
-     * @param nume     A String containing the name of this book.
-     * @param nrPagini An int containing the number of pages of this book.
-     * @param isbn     A string containing the ISBN code of this book.
-     */
-    public void setNamePageIsbn(String nume, int nrPagini, String isbn){
-        this.nume = nume;
-        this.nrPagini = nrPagini;
-        this.isbn = isbn;
-    }
 
     /**
      * Getter method which returns the number of pages of this book.

@@ -1,8 +1,9 @@
-package ro.sci.management;
+package ro.sci.main;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import ro.sci.books.*;
+import ro.sci.library.CustomException;
 import ro.sci.library.Library;
 
 import java.io.*;
@@ -12,7 +13,7 @@ import java.util.*;
 
 
 /**
- * <h1>InventoryManagement</h1>
+ * <h1>BookManager</h1>
  * Calls the {@link #addBook(Book carte)} method which is used to add objects to the list.
  * Calls the {@link #getItemCount()} method which is used to count the objects in the list.
  * Calls the {@link #search(String ceCauti)} method which is used to searche for a title in the list.
@@ -34,7 +35,7 @@ import java.util.*;
 /**
  * Manages the list of {@link Book} objects.
  */
-public class InventoryManagement {
+class BookManager {
 
     /**
      * Creates a logger object for this class.
@@ -54,7 +55,7 @@ public class InventoryManagement {
      * The error level of logging - for logging errors, for example trying to open file that is not there:
      * logger.error("Sorry, something wrong!");
      */
-    final static Logger logger = Logger.getLogger(InventoryManagement.class);
+    private final static Logger logger = Logger.getLogger(BookManager.class);
 
     public static void main(String[] args){
 
@@ -165,6 +166,9 @@ public class InventoryManagement {
         ((GenericBiography) biography).setType("Autobiography");
         ((GenericBiography) biography).setDomain("Scriitori");
 
+
+        logger.info("\n ================ ArrayList Collection ================ \n");
+
         /**
          * Creates an array list with the added objects.
          */
@@ -193,10 +197,9 @@ public class InventoryManagement {
         // Writes and prints the item list.
         List cartileDinBiblioteca = librarie.getListOfBooks();
 
-        System.out.println("\n============ ArrayList ============");
 
         // Counts and prints the number of the items in the list.
-        System.out.println("\nNumar de carti existente in biblioteca: " + librarie.getItemCount() + "\n");
+        logger.info("Numarul de carti existente in biblioteca este: " + librarie.getItemCount() + "\n");
 
         /**
          * Writes a file containing the list of objects in the library.
@@ -217,7 +220,7 @@ public class InventoryManagement {
              * Splits the string where a certain pattern is found.
              */
             String[] elementeLibrarie01 = centralizatorCarti01.split(",\\s");
-            fileWriter01.write("In biblioteca se afla urmatoarele titluri:\n");
+            fileWriter01.write("In biblioteca se afla urmatoarele titluri:");
 
             /**
              * 1. Java foreach loop prints the separated elements of the library.
@@ -229,7 +232,7 @@ public class InventoryManagement {
             }
 
         } catch (IOException e) {
-            System.out.println("General I/O exception for file: " + arrayListInventory.toString());
+            logger.info("General I/O exception for file: " + arrayListInventory.toString());
         }
 
         /**
@@ -240,12 +243,13 @@ public class InventoryManagement {
             logger.info("...reading file...");
             readArrayListInventory = new Scanner(new File("src/ro/sci/resources/arrayListLibrary.txt"));
             while (readArrayListInventory.hasNextLine()) {
-                System.out.println(readArrayListInventory.nextLine());
+                logger.info(readArrayListInventory.nextLine());
             }
-            logger.info("...file reading done");
+            logger.info("...file reading done \n");
         } catch (FileNotFoundException e) {
             logger.error("...file not found " + e.getMessage());
         }
+        readArrayListInventory.close();
 
 
         /**
@@ -253,7 +257,7 @@ public class InventoryManagement {
          * Prints the result of the search.
          */
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("\nIntroduceti numele cartii cautate: ");
+        logger.info("Introduceti numele cartii cautate: ");
         String mySearch = keyboard.next().concat(keyboard.nextLine());
         librarie.search(mySearch);
 
@@ -261,15 +265,15 @@ public class InventoryManagement {
          * Searches for a book using the position number inquired by user.
          * Prints the name of the book.
          */
-        System.out.println("\nIntroduceti numarul pozitiei cautate: ");
+        logger.info("Introduceti numarul pozitiei cautate din lista de " + librarie.getItemCount() + " carti existente in biblioteca:");
         int myint = keyboard.nextInt();
         String myString = keyboard.nextLine();
-        System.out.println("\nCartea aflata la pozitia ~" + myint + "~ este: ");
+        logger.info("Cartea aflata la pozitia ~" + myint + "~ este:");
 
         try {
             List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/arrayListLibrary.txt"));
             String[] arrayLines = allLines.toArray(new String[0]);
-            System.out.println(arrayLines[myint + 1]);
+            logger.info(arrayLines[myint] + "\n\n");
         } catch (IOException e) {
             logger.error("Sorry, something went wrong!", e);
         }
@@ -279,13 +283,13 @@ public class InventoryManagement {
          * =============================Implementing collections using Arrays ===================================
          */
 
-        System.out.println("\n============ Arrays ============");
+        logger.info("\n ================ Array Collection ================ \n");
 
         /**
          *  Reads the input from the user and sets it as the array lenght.
          */
         int arraySize;
-        System.out.println("\nCate carti doriti sa introduceti in biblioteca?");
+        logger.info("Cate carti doriti sa introduceti in biblioteca?");
         arraySize = keyboard.nextInt();
         Book[] booksInArray = new Book[arraySize];
 
@@ -299,27 +303,39 @@ public class InventoryManagement {
          * @param isbnInArray sets input string as the ISBN code of the book being entered in the library.
          */
         for (int i = 0; i < arraySize; i++) {
-            System.out.println("\nPentru articolul cu numarul " + (i + 1) + ":");
-            System.out.println("Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:");
+            logger.info("Pentru articolul cu numarul ~" + (i + 1) + "~:");
+            logger.info("Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:");
             String nameInArray = keyboard.next().concat(keyboard.nextLine());
-            System.out.println("Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:");
+            logger.info("Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:");
             int pagesInArray = keyboard.nextInt();
-            System.out.println("Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):");
+
+            if (pagesInArray < 100) {
+                try {
+                    throw new CustomException("The size of this item is too small to be kept in this library. \n");
+                } catch (CustomException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                pagesInArray = pagesInArray;
+            }
+
+            logger.info("Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):");
             String isbnInArray = keyboard.next().concat(keyboard.nextLine());
             Book arr1 = new Book(nameInArray, pagesInArray, isbnInArray);
             booksInArray[i] = arr1;
+
         }
 
         // Prints all the array elements.
-        System.out.println("\nAti adaugat in biblioteca urmatoarele " + arraySize + " carti:");
+        logger.info("Ati adaugat in biblioteca urmatoarele " + arraySize + " carti:");
         for (int counter = 0; counter < arraySize; counter++) {
-            System.out.println((counter + 1) + ") " + booksInArray[counter]);
+            logger.info((counter + 1) + ") " + booksInArray[counter]);
         }
 
         /**
          * Takes input from user and calculates de index of the item to be removed.
          */
-        System.out.println("\nIntroduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
+        logger.info("Introduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
         int positionToRemove = keyboard.nextInt();
         int indexToRemove = positionToRemove - 1;
 
@@ -338,9 +354,9 @@ public class InventoryManagement {
         /**
          * Prints the new array.
          */
-        System.out.println("\nAu mai ramas in biblioteca urmatoarele titluri:");
+        logger.info("Au mai ramas in biblioteca urmatoarele titluri:");
         for (int counter = 0; counter < diminishedArray.length; counter++) {
-            System.out.println((counter + 1) + ") " + diminishedArray[counter]);
+            logger.info((counter + 1) + ") " + diminishedArray[counter]);
         }
 
         /**
@@ -352,61 +368,78 @@ public class InventoryManagement {
             String arrayToFile = Arrays.toString(diminishedArray);
             String centralizatorCarti02 = arrayToFile.substring(1, arrayToFile.length() - 1);
             String[] elementeLibrarie02 = centralizatorCarti02.split(",\\s");
-            fileWriter02.write("\nDupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:\n");
+            fileWriter02.write("Dupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:\n");
             int index = 1;
             for (String e : elementeLibrarie02) {
                 fileWriter02.write("\n~" + index++ + "~ " + e);
             }
 
         } catch (IOException e) {
-            System.out.println("General I/O exception for file: " + arrayInventory.toString());
+            logger.info("General I/O exception for file: " + arrayInventory.toString());
         }
+        keyboard.close();
+
 
         /**
          * =============================Implementing collections using LinkedHashSet ===================================
          */
 
-        System.out.println("\n============ LinkedHashSet<> ============");
+        logger.info("\n ================ LinkedHashSet ================ \n");
 
 
         Set<Book> setLibrary = new LinkedHashSet<>();
+        logger.info("The following objects have been added to setLibrary:");
+
+        /**
+         * Adding two objects with the same isbn, carte1 and carte3. The equals() and hashCode() method implemeted in the Book class
+         * ensures that we only find one such object in this LinkedHashSet.
+         *
+         * {@link #equals(Object()} in Book class.
+         * {@link #hashCode()} in Book class.
+         */
         setLibrary.add(carte1);
         setLibrary.add(carte2);
-
-        /**
-         * This object has the same isbn as carte1. The equals() and hashCode() method implemeted in the Book class
-         * ensures that we only find one such object in this LinkedHashSet.
-         *
-         * {@link #equals(Object()} in Book class.
-         * {@link #hashCode()} in Book class.
-         */
         setLibrary.add(carte3);
 
-        setLibrary.add(art1);
-        setLibrary.add(art2);
 
         /**
-         * This object has the same ISBN as art1. The equals() and hashCode() method implemeted in the Book class
+         * Adding two objects with the same isbn, art1 and art3. The equals() and hashCode() method implemeted in the Book class
          * ensures that we only find one such object in this LinkedHashSet.
          *
          * {@link #equals(Object()} in Book class.
          * {@link #hashCode()} in Book class.
          */
+        setLibrary.add(art1);
+        setLibrary.add(art2);
         setLibrary.add(art3);
 
         // Iterate through the collection
         for (Object element : setLibrary) {
-            System.out.println(element);
+            logger.info(element);
         }
 
-        // Verify the presence of an item
-        // <<<<<<<<<<<<< Set a scanner >>>>>>>>>>>>>>>
-        // <<<<<<<<<<<<< addAll >>>>>>>>>>>
-        if (setLibrary.contains(carte2)) {
-            System.out.println("\nThe library does contain this book.");
-        }
+        logger.info("Test operations in LinkedHashSet - others that we already saw in ArrayList and Array collections.");
+        // Counting the elements of the LinkedHashSet.
+        logger.info("Size of LinkedHashSet is: " + setLibrary.size() + " items.");
+        // Displaying the LinkedHashSet.
+        logger.info("The original LinkedHashSet is " + setLibrary);
+        // Removing an element from the LinkedHashSet.
+        logger.info("Removing carte1 from list  = " + setLibrary.remove(carte1));
+        // Trying to remove an obeject that is not in the LinkedHashSet.
+        logger.info("Trying to remove 'carte3' which is not present: " + setLibrary.remove(carte3));
+        // This method returns true if this set contains the specified element.
+        logger.info("Checking if 'art1' is present = " + setLibrary.contains(art1));
+        // Displaying the LinkedHashSet.
+        logger.info("Updated LinkedHashSet: " + setLibrary);
 
+        // Creating an array from a LinkedHashSet.
+        Object[] arrayFromLinkedHashSet = setLibrary.toArray();
+        logger.info("The array is:");
+        for (Object o : arrayFromLinkedHashSet) logger.info(o);
 
+        // Using clear() method to remove all the items in the collection.
+        setLibrary.clear();
+        logger.info("LinkedHashSet after use of clear() method: " + setLibrary);
     }
 }
 

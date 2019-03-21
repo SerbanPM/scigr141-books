@@ -12,7 +12,6 @@ package ro.sci.books;
  */
 
 import org.apache.log4j.Logger;
-import ro.sci.management.InventoryManagement;
 
 /**
  * Represents a category of art albums that can be found in this library.

@@ -1,18 +1,6 @@
 package ro.sci.books;
 
-/**
- * <h1>ArtAlbum</h1>
- * Child class of the Book class.
- * Used to create more specific instances of the Book class.
- *
- * @author Serban PM
- * @version 1.0
- * @see Book
- * @since 20190122
- */
-
 import org.apache.log4j.Logger;
-import ro.sci.management.InventoryManagement;
 
 /**
  * Represents a category of books that can be found in this library.

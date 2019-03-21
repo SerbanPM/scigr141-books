@@ -71,9 +71,9 @@ public class Library implements LibraryInterface {
      * @param book An object of type Book.
      */
     public void addBook(Book book){
-        logger.info("adding book");
+        logger.info("...adding book...");
         listOfBooks.add(book);
-        logger.info("book added");
+        logger.info("...book added \n");
     }
 
     /**
@@ -85,8 +85,7 @@ public class Library implements LibraryInterface {
         /**
          * Represents the number of books that can be found in this library.
          */
-        int numberOfItemsInLibrary = listOfBooks.size();
-        return numberOfItemsInLibrary;
+        return listOfBooks.size();
     }
 
     /**
@@ -101,11 +100,11 @@ public class Library implements LibraryInterface {
     public Book search(String book){
         for (Book carte : listOfBooks) {
             if (book.equals(carte.getNume())) {
-                logger.info("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca!");
+                logger.info("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca! \n");
                 return carte;
             }
         }
-        logger.info("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca!");
+        logger.info("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca! \n");
         return null;
     }
 
@@ -118,12 +117,13 @@ public class Library implements LibraryInterface {
     public void remove(Book book){
         logger.info("removing book");
         listOfBooks.remove(book);
-        logger.info("book removed");
+        logger.info("book removed \n");
     }
 
     /**
      * Retrieves the object corresponding to the index parameter.
-     *      *
+     * *
+     *
      * @param index an integer reprezenting the idex of the item in the collection.
      * @return returns the item corresponding to the index parameter.
      */

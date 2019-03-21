@@ -39,7 +39,7 @@ public class GenericBiography<T> extends Novel {
      *
      * @return A placeholder standing for the domain of this GenericBiography.
      */
-    public T getDomain( ){
+    private T getDomain( ){
         return domain;
     }
 

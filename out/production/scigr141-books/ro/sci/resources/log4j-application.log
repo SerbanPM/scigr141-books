@@ -1,1393 +1,311 @@
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:79 - adding book
-2019-03-20 21:37:24 INFO  Library:81 - book added
-2019-03-20 21:37:24 INFO  Library:121 - removing book
-2019-03-20 21:37:24 INFO  Library:123 - book removed
-2019-03-20 21:37:24 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:37:24 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:37:26 INFO  Library:110 - Cartea cu titlul 'wdyu' nu exista in aceasta bilioteca!
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:79 - adding book
-2019-03-20 21:38:23 INFO  Library:81 - book added
-2019-03-20 21:38:23 INFO  Library:121 - removing book
-2019-03-20 21:38:23 INFO  Library:123 - book removed
-2019-03-20 21:38:23 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:38:23 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:41:10 INFO  Library:110 - Cartea cu titlul 'asgdh' nu exista in aceasta bilioteca!
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:79 - adding book
-2019-03-20 21:41:28 INFO  Library:81 - book added
-2019-03-20 21:41:28 INFO  Library:121 - removing book
-2019-03-20 21:41:28 INFO  Library:123 - book removed
-2019-03-20 21:41:28 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:41:28 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:41:31 INFO  Library:110 - Cartea cu titlul 'sgdhfj' nu exista in aceasta bilioteca!
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:79 - adding book
-2019-03-20 21:43:35 INFO  Library:81 - book added
-2019-03-20 21:43:35 INFO  Library:121 - removing book
-2019-03-20 21:43:35 INFO  Library:123 - book removed
-2019-03-20 21:43:35 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:43:35 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:43:41 INFO  Library:110 - Cartea cu titlul 'sdhaj' nu exista in aceasta bilioteca!
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:79 - adding book
-2019-03-20 21:44:56 INFO  Library:81 - book added
-2019-03-20 21:44:56 INFO  Library:121 - removing book
-2019-03-20 21:44:56 INFO  Library:123 - book removed
-2019-03-20 21:44:56 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:44:56 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:45:00 INFO  Library:110 - Cartea cu titlul 'asgh' nu exista in aceasta bilioteca!
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:79 - adding book
-2019-03-20 21:47:25 INFO  Library:81 - book added
-2019-03-20 21:47:25 INFO  Library:121 - removing book
-2019-03-20 21:47:25 INFO  Library:123 - book removed
-2019-03-20 21:47:25 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:47:25 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:47:28 INFO  Library:110 - Cartea cu titlul 'astyh' nu exista in aceasta bilioteca!
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:79 - adding book
-2019-03-20 21:49:36 INFO  Library:81 - book added
-2019-03-20 21:49:36 INFO  Library:121 - removing book
-2019-03-20 21:49:36 INFO  Library:123 - book removed
-2019-03-20 21:49:36 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:49:36 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:49:38 INFO  Library:110 - Cartea cu titlul 'weghj' nu exista in aceasta bilioteca!
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:79 - adding book
-2019-03-20 21:54:21 INFO  Library:81 - book added
-2019-03-20 21:54:21 INFO  Library:121 - removing book
-2019-03-20 21:54:21 INFO  Library:123 - book removed
-2019-03-20 21:54:21 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:54:21 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:54:25 INFO  Library:110 - Cartea cu titlul 'ZXBN' nu exista in aceasta bilioteca!
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:79 - adding book
-2019-03-20 21:54:54 INFO  Library:81 - book added
-2019-03-20 21:54:54 INFO  Library:121 - removing book
-2019-03-20 21:54:54 INFO  Library:123 - book removed
-2019-03-20 21:54:54 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:54:54 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:54:56 INFO  Library:110 - Cartea cu titlul 'sdnfdmk' nu exista in aceasta bilioteca!
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:79 - adding book
-2019-03-20 21:58:18 INFO  Library:81 - book added
-2019-03-20 21:58:18 INFO  Library:121 - removing book
-2019-03-20 21:58:18 INFO  Library:123 - book removed
-2019-03-20 21:58:18 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:58:18 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:58:21 INFO  Library:110 - Cartea cu titlul 'AGsdhfj' nu exista in aceasta bilioteca!
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:79 - adding book
-2019-03-20 21:59:17 INFO  Library:81 - book added
-2019-03-20 21:59:17 INFO  Library:121 - removing book
-2019-03-20 21:59:17 INFO  Library:123 - book removed
-2019-03-20 21:59:17 INFO  InventoryManagement:218 - ...reading file...
-2019-03-20 21:59:17 INFO  InventoryManagement:223 - ...file reading done
-2019-03-20 21:59:20 INFO  Library:110 - Cartea cu titlul 'eHJ' nu exista in aceasta bilioteca!
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:79 - adding book
-2019-03-20 22:40:09 INFO  Library:81 - book added
-2019-03-20 22:40:09 INFO  Library:121 - removing book
-2019-03-20 22:40:09 INFO  Library:123 - book removed
-2019-03-20 22:40:09 INFO  InventoryManagement:227 - ...reading file...
-2019-03-20 22:40:09 INFO  InventoryManagement:232 - ...file reading done
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:79 - adding book
-2019-03-20 22:43:49 INFO  Library:81 - book added
-2019-03-20 22:43:49 INFO  Library:121 - removing book
-2019-03-20 22:43:49 INFO  Library:123 - book removed
-2019-03-20 22:43:49 INFO  InventoryManagement:228 - ...reading file...
-2019-03-20 22:43:49 INFO  InventoryManagement:233 - ...file reading done
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:79 - adding book
-2019-03-20 22:46:00 INFO  Library:81 - book added
-2019-03-20 22:46:00 INFO  Library:121 - removing book
-2019-03-20 22:46:00 INFO  Library:123 - book removed
-2019-03-20 22:46:00 INFO  InventoryManagement:229 - ...reading file...
-2019-03-20 22:46:00 INFO  InventoryManagement:234 - ...file reading done
-2019-03-20 22:46:03 INFO  Library:110 - Cartea cu titlul 'sagh' nu exista in aceasta bilioteca!
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:79 - adding book
-2019-03-20 22:46:55 INFO  Library:81 - book added
-2019-03-20 22:46:55 INFO  Library:121 - removing book
-2019-03-20 22:46:55 INFO  Library:123 - book removed
-2019-03-20 22:46:55 INFO  InventoryManagement:230 - ...reading file...
-2019-03-20 22:46:55 INFO  InventoryManagement:235 - ...file reading done
-2019-03-20 22:47:01 INFO  Library:110 - Cartea cu titlul 'dshj' nu exista in aceasta bilioteca!
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:79 - adding book
-2019-03-20 22:55:36 INFO  Library:81 - book added
-2019-03-20 22:55:36 INFO  Library:121 - removing book
-2019-03-20 22:55:36 INFO  Library:123 - book removed
-2019-03-20 22:55:36 INFO  InventoryManagement:235 - ...reading file...
-2019-03-20 22:55:36 INFO  InventoryManagement:240 - ...file reading done
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:79 - adding book
-2019-03-20 22:56:06 INFO  Library:81 - book added
-2019-03-20 22:56:06 INFO  Library:121 - removing book
-2019-03-20 22:56:06 INFO  Library:123 - book removed
-2019-03-20 22:56:06 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 22:56:06 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:79 - adding book
-2019-03-20 22:57:12 INFO  Library:81 - book added
-2019-03-20 22:57:12 INFO  Library:121 - removing book
-2019-03-20 22:57:12 INFO  Library:123 - book removed
-2019-03-20 22:57:12 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 22:57:12 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:79 - adding book
-2019-03-20 22:59:01 INFO  Library:81 - book added
-2019-03-20 22:59:01 INFO  Library:121 - removing book
-2019-03-20 22:59:01 INFO  Library:123 - book removed
-2019-03-20 22:59:01 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 22:59:01 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:79 - adding book
-2019-03-20 23:00:22 INFO  Library:81 - book added
-2019-03-20 23:00:22 INFO  Library:121 - removing book
-2019-03-20 23:00:22 INFO  Library:123 - book removed
-2019-03-20 23:00:22 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:00:22 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:79 - adding book
-2019-03-20 23:01:06 INFO  Library:81 - book added
-2019-03-20 23:01:06 INFO  Library:121 - removing book
-2019-03-20 23:01:06 INFO  Library:123 - book removed
-2019-03-20 23:01:06 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:01:06 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:79 - adding book
-2019-03-20 23:03:07 INFO  Library:81 - book added
-2019-03-20 23:03:07 INFO  Library:121 - removing book
-2019-03-20 23:03:07 INFO  Library:123 - book removed
-2019-03-20 23:03:07 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:03:07 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:79 - adding book
-2019-03-20 23:04:26 INFO  Library:81 - book added
-2019-03-20 23:04:26 INFO  Library:121 - removing book
-2019-03-20 23:04:26 INFO  Library:123 - book removed
-2019-03-20 23:04:26 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:04:26 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:79 - adding book
-2019-03-20 23:18:02 INFO  Library:81 - book added
-2019-03-20 23:18:02 INFO  Library:121 - removing book
-2019-03-20 23:18:02 INFO  Library:123 - book removed
-2019-03-20 23:18:02 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:18:02 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:79 - adding book
-2019-03-20 23:44:55 INFO  Library:81 - book added
-2019-03-20 23:44:55 INFO  Library:121 - removing book
-2019-03-20 23:44:55 INFO  Library:123 - book removed
-2019-03-20 23:44:55 INFO  InventoryManagement:237 - ...reading file...
-2019-03-20 23:44:55 INFO  InventoryManagement:242 - ...file reading done
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:79 - adding book
-2019-03-20 23:45:44 INFO  Library:81 - book added
-2019-03-20 23:45:44 INFO  Library:121 - removing book
-2019-03-20 23:45:44 INFO  Library:123 - book removed
-2019-03-20 23:45:44 INFO  InventoryManagement:237 - ...reading file...
-2019-03-20 23:45:44 INFO  InventoryManagement:242 - ...file reading done
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:74 - adding book
-2019-03-20 23:55:56 INFO  Library:76 - book added
-2019-03-20 23:55:56 INFO  Library:119 - removing book
-2019-03-20 23:55:56 INFO  Library:121 - book removed
-2019-03-20 23:55:56 INFO  InventoryManagement:236 - ...reading file...
-2019-03-20 23:55:56 INFO  InventoryManagement:241 - ...file reading done
-2019-03-20 23:55:59 INFO  Library:108 - Cartea cu titlul 'fsgadhn' nu exista in aceasta bilioteca!
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:74 - adding book
-2019-03-21 00:16:29 INFO  Library:76 - book added
-2019-03-21 00:16:29 INFO  Library:119 - removing book
-2019-03-21 00:16:29 INFO  Library:121 - book removed
-2019-03-21 00:16:29 INFO  InventoryManagement:235 - ...reading file...
-2019-03-21 00:16:29 INFO  InventoryManagement:240 - ...file reading done
-2019-03-21 00:16:32 INFO  Library:108 - Cartea cu titlul 'sfdhj' nu exista in aceasta bilioteca!
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:74 - adding book
-2019-03-21 00:25:07 INFO  Library:76 - book added
-2019-03-21 00:25:07 INFO  Library:119 - removing book
-2019-03-21 00:25:07 INFO  Library:121 - book removed
-2019-03-21 00:25:07 INFO  InventoryManagement:237 - ...reading file...
-2019-03-21 00:25:07 INFO  InventoryManagement:242 - ...file reading done
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:74 - adding book
-2019-03-21 00:26:23 INFO  Library:76 - book added
-2019-03-21 00:26:23 INFO  Library:119 - removing book
-2019-03-21 00:26:23 INFO  Library:121 - book removed
-2019-03-21 00:26:23 INFO  InventoryManagement:237 - ...reading file...
-2019-03-21 00:26:23 INFO  InventoryManagement:242 - ...file reading done
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:74 - adding book
-2019-03-21 00:35:41 INFO  Library:76 - book added
-2019-03-21 00:35:41 INFO  Library:119 - removing book
-2019-03-21 00:35:41 INFO  Library:121 - book removed
-2019-03-21 00:35:41 INFO  InventoryManagement:237 - ...reading file...
-2019-03-21 00:35:41 INFO  InventoryManagement:242 - ...file reading done
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:74 - adding book
-2019-03-21 00:56:01 INFO  Library:76 - book added
-2019-03-21 00:56:01 INFO  Library:119 - removing book
-2019-03-21 00:56:01 INFO  Library:121 - book removed
-2019-03-21 00:56:01 INFO  InventoryManagement:230 - ...reading file...
-2019-03-21 00:56:01 INFO  InventoryManagement:235 - ...file reading done
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:74 - adding book
-2019-03-21 08:06:14 INFO  Library:76 - book added
-2019-03-21 08:06:14 INFO  Library:119 - removing book
-2019-03-21 08:06:14 INFO  Library:121 - book removed
-2019-03-21 08:06:14 INFO  InventoryManagement:231 - ...reading file...
-2019-03-21 08:06:14 INFO  InventoryManagement:236 - ...file reading done
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:74 - adding book
-2019-03-21 08:07:51 INFO  Library:76 - book added
-2019-03-21 08:07:51 INFO  Library:119 - removing book
-2019-03-21 08:07:51 INFO  Library:121 - book removed
-2019-03-21 08:07:51 INFO  InventoryManagement:228 - ...reading file...
-2019-03-21 08:07:51 INFO  InventoryManagement:233 - ...file reading done
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:74 - adding book
-2019-03-21 08:10:02 INFO  Library:76 - book added
-2019-03-21 08:10:02 INFO  Library:119 - removing book
-2019-03-21 08:10:02 INFO  Library:121 - book removed
-2019-03-21 08:10:02 INFO  InventoryManagement:231 - ...reading file...
-2019-03-21 08:10:02 INFO  InventoryManagement:236 - ...file reading done
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:74 - adding book
-2019-03-21 08:11:19 INFO  Library:76 - book added
-2019-03-21 08:11:19 INFO  Library:119 - removing book
-2019-03-21 08:11:19 INFO  Library:121 - book removed
-2019-03-21 08:11:19 INFO  InventoryManagement:231 - ...reading file...
-2019-03-21 08:11:19 INFO  InventoryManagement:236 - ...file reading done
-2019-03-21 08:17:41 INFO  Library:74 - adding book
-2019-03-21 08:17:41 INFO  Library:76 - book added
-2019-03-21 08:17:41 INFO  Library:74 - adding book
-2019-03-21 08:17:41 INFO  Library:76 - book added
-2019-03-21 08:17:41 INFO  Library:74 - adding book
-2019-03-21 08:17:41 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:74 - adding book
-2019-03-21 08:17:42 INFO  Library:76 - book added
-2019-03-21 08:17:42 INFO  Library:119 - removing book
-2019-03-21 08:17:42 INFO  Library:121 - book removed
-2019-03-21 08:17:42 INFO  InventoryManagement:236 - ...reading file...
-2019-03-21 08:17:42 INFO  InventoryManagement:241 - ...file reading done
-2019-03-21 08:18:44 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:74 - adding book
-2019-03-21 08:18:45 INFO  Library:76 - book added
-2019-03-21 08:18:45 INFO  Library:119 - removing book
-2019-03-21 08:18:45 INFO  Library:121 - book removed
-2019-03-21 08:18:45 INFO  InventoryManagement:238 - ...reading file...
-2019-03-21 08:18:45 INFO  InventoryManagement:243 - ...file reading done
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:26 INFO  Library:76 - book added
-2019-03-21 08:21:26 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:74 - adding book
-2019-03-21 08:21:27 INFO  Library:76 - book added
-2019-03-21 08:21:27 INFO  Library:119 - removing book
-2019-03-21 08:21:27 INFO  Library:121 - book removed
-2019-03-21 08:21:27 INFO  InventoryManagement:238 - ...reading file...
-2019-03-21 08:21:27 INFO  InventoryManagement:243 - ...file reading done
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:74 - adding book
-2019-03-21 08:23:30 INFO  Library:76 - book added
-2019-03-21 08:23:30 INFO  Library:119 - removing book
-2019-03-21 08:23:30 INFO  Library:121 - book removed
-2019-03-21 08:23:30 INFO  InventoryManagement:238 - ...reading file...
-2019-03-21 08:23:30 INFO  InventoryManagement:243 - ...file reading done
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:74 - adding book
-2019-03-21 08:26:20 INFO  Library:76 - book added
-2019-03-21 08:26:20 INFO  Library:119 - removing book
-2019-03-21 08:26:20 INFO  Library:121 - book removed
-2019-03-21 08:26:20 INFO  InventoryManagement:238 - ...reading file...
-2019-03-21 08:26:20 INFO  InventoryManagement:243 - ...file reading done
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:74 - adding book
-2019-03-21 08:42:27 INFO  Library:76 - book added
-2019-03-21 08:42:27 INFO  Library:119 - removing book
-2019-03-21 08:42:27 INFO  Library:121 - book removed
-2019-03-21 08:42:27 INFO  InventoryManagement:237 - ...reading file...
-2019-03-21 08:42:27 INFO  InventoryManagement:242 - ...file reading done
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:74 - adding book
-2019-03-21 08:42:53 INFO  Library:76 - book added
-2019-03-21 08:42:53 INFO  Library:119 - removing book
-2019-03-21 08:42:53 INFO  Library:121 - book removed
-2019-03-21 08:42:53 INFO  InventoryManagement:237 - ...reading file...
-2019-03-21 08:42:53 INFO  InventoryManagement:242 - ...file reading done
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:74 - adding book
-2019-03-21 08:47:00 INFO  Library:76 - book added
-2019-03-21 08:47:00 INFO  Library:119 - removing book
-2019-03-21 08:47:00 INFO  Library:121 - book removed
-2019-03-21 08:47:00 INFO  InventoryManagement:240 - ...reading file...
-2019-03-21 08:47:00 INFO  InventoryManagement:245 - ...file reading done
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:74 - adding book
-2019-03-21 08:53:09 INFO  Library:76 - book added
-2019-03-21 08:53:09 INFO  Library:119 - removing book
-2019-03-21 08:53:09 INFO  Library:121 - book removed
-2019-03-21 08:53:09 INFO  InventoryManagement:240 - ...reading file...
-2019-03-21 08:53:09 INFO  InventoryManagement:245 - ...file reading done
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:74 - adding book
-2019-03-21 08:53:53 INFO  Library:76 - book added
-2019-03-21 08:53:53 INFO  Library:119 - removing book
-2019-03-21 08:53:53 INFO  Library:121 - book removed
-2019-03-21 08:53:53 INFO  InventoryManagement:240 - ...reading file...
-2019-03-21 08:53:53 INFO  InventoryManagement:245 - ...file reading done
+2019-03-21 16:09:13 INFO  Library:74 - ...adding book...
+2019-03-21 16:09:13 INFO  Library:76 - ...book added 
+
+2019-03-21 16:09:13 INFO  Library:74 - ...adding book...
+2019-03-21 16:09:13 INFO  Library:76 - ...book added 
+
+2019-03-21 16:09:13 INFO  Library:118 - removing book
+2019-03-21 16:09:13 INFO  Library:120 - book removed 
+
+2019-03-21 16:14:34 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:34 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:34 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:34 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:34 INFO  Library:118 - removing book
+2019-03-21 16:14:34 INFO  Library:120 - book removed 
+
+2019-03-21 16:14:46 INFO  BookManager:170 - 
+ ================ ArrayList Collection ================ 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
+2019-03-21 16:14:46 INFO  Library:76 - ...book added 
+
+2019-03-21 16:14:46 INFO  Library:118 - removing book
+2019-03-21 16:14:46 INFO  Library:120 - book removed 
+
+2019-03-21 16:14:46 INFO  BookManager:202 - 
+Numar de carti existente in biblioteca: 13
+
+2019-03-21 16:14:46 INFO  BookManager:243 - ...reading file...
+2019-03-21 16:14:46 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
+2019-03-21 16:14:46 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
+2019-03-21 16:14:46 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-21 16:14:46 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
+2019-03-21 16:14:46 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
+2019-03-21 16:14:46 INFO  BookManager:248 - ...file reading done 
+
+2019-03-21 16:14:46 INFO  BookManager:260 - 
+Introduceti numele cartii cautate: 
+2019-03-21 16:14:55 INFO  Library:103 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca! 
+
+2019-03-21 16:14:55 INFO  BookManager:268 - 
+Introduceti numarul pozitiei cautate din lista de 13 carti existente in biblioteca:
+2019-03-21 16:14:57 INFO  BookManager:271 - 
+Cartea aflata la pozitia ~2~ este:
+2019-03-21 16:14:57 INFO  BookManager:276 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+
+
+2019-03-21 16:14:57 INFO  BookManager:286 - 
+ ================ Array Collection ================ 
+
+2019-03-21 16:14:57 INFO  BookManager:292 - 
+Cate carti doriti sa introduceti in biblioteca?
+2019-03-21 16:15:02 INFO  BookManager:306 - 
+Pentru articolul cu numarul ~1~:
+2019-03-21 16:15:02 INFO  BookManager:307 - 
+Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:15:16 INFO  BookManager:309 - 
+Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:15:20 INFO  BookManager:322 - 
+Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
+2019-03-21 16:15:31 INFO  BookManager:306 - 
+Pentru articolul cu numarul ~2~:
+2019-03-21 16:15:31 INFO  BookManager:307 - 
+Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:15:43 INFO  BookManager:309 - 
+Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:15:47 INFO  BookManager:322 - 
+Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
+2019-03-21 16:16:03 INFO  BookManager:306 - 
+Pentru articolul cu numarul ~3~:
+2019-03-21 16:16:03 INFO  BookManager:307 - 
+Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:16:14 INFO  BookManager:309 - 
+Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:16:18 INFO  BookManager:322 - 
+Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
+2019-03-21 16:16:26 INFO  BookManager:330 - 
+Ati adaugat in biblioteca urmatoarele 3 carti:
+2019-03-21 16:16:26 INFO  BookManager:332 - 1) Book: nume = 'Zero vol 1' / nrPagini = 300 / ISBN 6789-564-34-7
+2019-03-21 16:16:26 INFO  BookManager:332 - 2) Book: nume = 'Zero vol 2' / nrPagini = 354 / ISBN 3567-345-34-5
+2019-03-21 16:16:26 INFO  BookManager:332 - 3) Book: nume = 'Zero vol 3' / nrPagini = 234 / ISBN 2456-346-35-3
+2019-03-21 16:16:26 INFO  BookManager:338 - 
+Introduceti numarul cartii pe care doriti sa o scoateti din librarie: 
+2019-03-21 16:18:35 INFO  BookManager:357 - 
+Au mai ramas in biblioteca urmatoarele titluri:
+2019-03-21 16:18:35 INFO  BookManager:359 - 1) Book: nume = 'Zero vol 1' / nrPagini = 300 / ISBN 6789-564-34-7
+2019-03-21 16:18:35 INFO  BookManager:359 - 2) Book: nume = 'Zero vol 2' / nrPagini = 354 / ISBN 3567-345-34-5
+2019-03-21 16:18:35 INFO  BookManager:387 - 
+ ================ LinkedHashSet ================ 
+
+2019-03-21 16:18:35 INFO  BookManager:391 - 
+ The following objects have been added to setLibrary: 
+
+2019-03-21 16:18:35 INFO  BookManager:418 - Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
+2019-03-21 16:18:35 INFO  BookManager:418 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-21 16:18:35 INFO  BookManager:418 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-21 16:18:35 INFO  BookManager:418 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
+2019-03-21 16:18:35 INFO  BookManager:421 - Test operations in LinkedHashSet - others that we already saw in ArrayList and Array collections.
+2019-03-21 16:18:35 INFO  BookManager:423 - Size of LinkedHashSet is: 4 items.
+2019-03-21 16:18:35 INFO  BookManager:425 - The original LinkedHashSet is [Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7, Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
+2019-03-21 16:18:35 INFO  BookManager:427 - Removing carte1 from list  = true
+2019-03-21 16:18:35 INFO  BookManager:429 - Trying to remove 'carte3' which is not present: false
+2019-03-21 16:18:35 INFO  BookManager:431 - Checking if 'art1' is present = true
+2019-03-21 16:18:35 INFO  BookManager:433 - Updated LinkedHashSet: [Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
+2019-03-21 16:18:35 INFO  BookManager:437 - 
+The array is:
+2019-03-21 16:18:35 INFO  BookManager:438 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-21 16:18:35 INFO  BookManager:438 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-21 16:18:35 INFO  BookManager:438 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
+2019-03-21 16:18:35 INFO  BookManager:442 - LinkedHashSet after use of clear() method: []
+2019-03-21 16:20:27 INFO  BookManager:170 - 
+ ================ ArrayList Collection ================ 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
+2019-03-21 16:20:27 INFO  Library:76 - ...book added 
+
+2019-03-21 16:20:27 INFO  Library:118 - removing book
+2019-03-21 16:20:27 INFO  Library:120 - book removed 
+
+2019-03-21 16:20:27 INFO  BookManager:202 - 
+Numar de carti existente in biblioteca: 13
+
+2019-03-21 16:20:27 INFO  BookManager:243 - ...reading file...
+2019-03-21 16:20:27 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
+2019-03-21 16:20:27 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
+2019-03-21 16:20:27 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-21 16:20:27 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
+2019-03-21 16:20:27 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
+2019-03-21 16:20:27 INFO  BookManager:248 - ...file reading done 
+
+2019-03-21 16:20:27 INFO  BookManager:260 - Introduceti numele cartii cautate: 
+2019-03-21 16:21:07 INFO  BookManager:170 - 
+ ================ ArrayList Collection ================ 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
+2019-03-21 16:21:07 INFO  Library:76 - ...book added 
+
+2019-03-21 16:21:07 INFO  Library:118 - removing book
+2019-03-21 16:21:07 INFO  Library:120 - book removed 
+
+2019-03-21 16:21:07 INFO  BookManager:202 - Numarul de carti existente in biblioteca este: 13
+
+2019-03-21 16:21:07 INFO  BookManager:243 - ...reading file...
+2019-03-21 16:21:07 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
+2019-03-21 16:21:07 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
+2019-03-21 16:21:07 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-21 16:21:07 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
+2019-03-21 16:21:07 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
+2019-03-21 16:21:07 INFO  BookManager:248 - ...file reading done 
+
+2019-03-21 16:21:07 INFO  BookManager:260 - Introduceti numele cartii cautate: 
+2019-03-21 16:21:27 INFO  Library:103 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca! 
+
+2019-03-21 16:21:27 INFO  BookManager:268 - Introduceti numarul pozitiei cautate din lista de 13 carti existente in biblioteca:
+2019-03-21 16:21:32 INFO  BookManager:271 - Cartea aflata la pozitia ~2~ este:
+2019-03-21 16:21:32 INFO  BookManager:276 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+
+
+2019-03-21 16:21:32 INFO  BookManager:286 - 
+ ================ Array Collection ================ 
+
+2019-03-21 16:21:32 INFO  BookManager:292 - Cate carti doriti sa introduceti in biblioteca?
+2019-03-21 16:21:44 INFO  BookManager:306 - Pentru articolul cu numarul ~1~:
+2019-03-21 16:21:44 INFO  BookManager:307 - Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
+2019-03-21 16:21:54 INFO  BookManager:309 - Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:

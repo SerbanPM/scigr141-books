@@ -1,4 +1,4 @@
-
 Dupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:
 
-~1~ 
+~1~ Book: nume = 'Zero vol 1' / nrPagini = 304 / ISBN 973-8180-59-4
+~2~ Book: nume = 'Zero vol 2' / nrPagini = 453 / ISBN 973-8180-59-5
