@@ -1,5 +1,16 @@
 package ro.sci.books;
 
+/**
+ * <h1>GenericBiography</h1>
+ * Generic class, child of the Novel class.
+ * Used to create more specific instances of the Novel class.
+ *
+ * @author Serban PM
+ * @version 1.0
+ * @see ArtAlbum
+ * @since 20190122
+ */
+
 import org.apache.log4j.Logger;
 
 /**
@@ -48,7 +59,7 @@ public class GenericBiography<T> extends Novel {
      */
     @Override
     public String toString( ){
-        return "Novel: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / gen literar = '" + getType() + '\'' + " / domneniu = '" + getDomain() + '\'';
+        return "GenericBiography: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / gen literar = '" + getType() + '\'' + " / domneniu = '" + getDomain() + '\'';
     }
 
 }

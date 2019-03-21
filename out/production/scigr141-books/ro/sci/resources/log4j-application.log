@@ -1359,3 +1359,35 @@
 2019-03-21 08:53:09 INFO  Library:121 - book removed
 2019-03-21 08:53:09 INFO  InventoryManagement:240 - ...reading file...
 2019-03-21 08:53:09 INFO  InventoryManagement:245 - ...file reading done
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:74 - adding book
+2019-03-21 08:53:53 INFO  Library:76 - book added
+2019-03-21 08:53:53 INFO  Library:119 - removing book
+2019-03-21 08:53:53 INFO  Library:121 - book removed
+2019-03-21 08:53:53 INFO  InventoryManagement:240 - ...reading file...
+2019-03-21 08:53:53 INFO  InventoryManagement:245 - ...file reading done
