@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718865a2-617d-49a5-b4fd-5487b2c24f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a59e30fcc549d31d343df7d97d6ca8dd80220da3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efc4b5173caa738055acdee56f5f9f8493a7c052" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efc4b5173caa738055acdee56f5f9f8493a7c052" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/META-INF/Test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/BLALAGlog4j-application.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/META-INF/scigr141-books.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/GenericBiography.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/main/BookManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayLibrary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Test/META-INF/Test.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/scigr141-books/ro/sci/library/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/test/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="68">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -129,7 +104,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553191889778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553192015724" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -454,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
