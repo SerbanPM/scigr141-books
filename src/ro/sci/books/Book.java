@@ -1,6 +1,7 @@
 package ro.sci.books;
 
 import org.apache.log4j.Logger;
+import ro.sci.library.Library;
 
 import java.util.Objects;
 
@@ -15,34 +16,27 @@ import java.util.Objects;
  * @since 20190122
  */
 
-/**
- * Represents any category of books that can be found in this library.
- */
+// Represents any category of books that can be found in this library.
 public class Book {
 
-    /**
-     * Creates a logger object for this class.
-     */
+
+    // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(Book.class);
 
-    /**
-     * The number of pages of this book.
-     */
+
+    // The number of pages of this book.
     private int nrPagini;
 
-    /**
-     * The name of this book.
-     */
+
+    //The name of this book.
     private String nume;
 
-    /**
-     * The ISBN code of this book.
-     */
+
+    // The ISBN code of this book.
     private String isbn;
 
-    /**
-     * Default constructor.
-     */
+
+    // Default constructor.
     public Book( ){
     }
 

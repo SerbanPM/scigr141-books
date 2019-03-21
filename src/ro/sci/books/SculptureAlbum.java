@@ -13,24 +13,19 @@ package ro.sci.books;
 
 import org.apache.log4j.Logger;
 
-/**
- * Represents a category of art albums that can be found in this library.
- */
+
+// Represents a category of art albums that can be found in this library.
 public class SculptureAlbum extends ArtAlbum {
 
-    /**
-     * Creates a logger object for this class.
-     */
+
+    // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(SculptureAlbum.class);
 
-    /**
-     * Represents the genre of the ArtAlbum.
-     */
+    // Represents the genre of the ArtAlbum.
     private String gen;
 
-    /**
-     * Default constructor.
-     */
+
+    // Default constructor.
     public SculptureAlbum( ){
     }
 

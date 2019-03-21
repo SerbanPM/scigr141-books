@@ -21,19 +21,16 @@ import java.util.List;
  * @since 20190122
  */
 
-/**
- * Contains the "business" part of this library.
- */
+
+// Contains the "business" part of this library.
 public class Library implements LibraryInterface {
 
-    /**
-     * Creates a logger object for this class.
-     */
+
+    // Creates a logger object for this class.
     private final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
 
-    /**
-     * Represents a list of books that can be found in this library.
-     */
+
+    // Represents a list of books that can be found in this library.
     private List<Book> listOfBooks;
 
     public Library(Book books){
@@ -73,7 +70,7 @@ public class Library implements LibraryInterface {
     public void addBook(Book book){
         logger.info("...adding book...");
         listOfBooks.add(book);
-        logger.info("...book added \n");
+        logger.info("...book added");
     }
 
     /**
@@ -82,9 +79,7 @@ public class Library implements LibraryInterface {
      * @return numberOfItemsInLibrary An int representing the number of objects in the list.
      */
     public int getItemCount( ){
-        /**
-         * Represents the number of books that can be found in this library.
-         */
+        // Represents the number of books that can be found in this library.
         return listOfBooks.size();
     }
 
@@ -100,12 +95,13 @@ public class Library implements LibraryInterface {
     public Book search(String book){
         for (Book carte : listOfBooks) {
             if (book.equals(carte.getNume())) {
-                logger.info("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca! \n");
+                logger.info("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca. \n");
                 return carte;
             }
         }
-        logger.info("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca! \n");
+        logger.info("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca. \n");
         return null;
+
     }
 
     /**

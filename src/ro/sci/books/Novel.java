@@ -13,24 +13,18 @@ package ro.sci.books;
 
 import org.apache.log4j.Logger;
 
-/**
- * Represents a category of books that can be found in this library.
- */
+
+// Represents a category of books that can be found in this library.
 public class Novel extends Book {
 
-    /**
-     * Creates a logger object for this class.
-     */
+    // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(Novel.class);
 
-    /**
-     * The type of the novel.
-     */
+    // The type of the novel.
     private String type;
 
-    /**
-     * Default constructor.
-     */
+
+    // Default constructor.
     public Novel( ){
     }
 

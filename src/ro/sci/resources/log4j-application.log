@@ -1,430 +1,97 @@
-2019-03-21 16:09:13 INFO  Library:74 - ...adding book...
-2019-03-21 16:09:13 INFO  Library:76 - ...book added 
-
-2019-03-21 16:09:13 INFO  Library:74 - ...adding book...
-2019-03-21 16:09:13 INFO  Library:76 - ...book added 
-
-2019-03-21 16:09:13 INFO  Library:118 - removing book
-2019-03-21 16:09:13 INFO  Library:120 - book removed 
-
-2019-03-21 16:14:34 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:34 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:34 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:34 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:34 INFO  Library:118 - removing book
-2019-03-21 16:14:34 INFO  Library:120 - book removed 
-
-2019-03-21 16:14:46 INFO  BookManager:170 - 
- ================ ArrayList Collection ================ 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:74 - ...adding book...
-2019-03-21 16:14:46 INFO  Library:76 - ...book added 
-
-2019-03-21 16:14:46 INFO  Library:118 - removing book
-2019-03-21 16:14:46 INFO  Library:120 - book removed 
-
-2019-03-21 16:14:46 INFO  BookManager:202 - 
-Numar de carti existente in biblioteca: 13
-
-2019-03-21 16:14:46 INFO  BookManager:243 - ...reading file...
-2019-03-21 16:14:46 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
-2019-03-21 16:14:46 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:14:46 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:14:46 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
-2019-03-21 16:14:46 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
-2019-03-21 16:14:46 INFO  BookManager:248 - ...file reading done 
-
-2019-03-21 16:14:46 INFO  BookManager:260 - 
-Introduceti numele cartii cautate: 
-2019-03-21 16:14:55 INFO  Library:103 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca! 
-
-2019-03-21 16:14:55 INFO  BookManager:268 - 
-Introduceti numarul pozitiei cautate din lista de 13 carti existente in biblioteca:
-2019-03-21 16:14:57 INFO  BookManager:271 - 
-Cartea aflata la pozitia ~2~ este:
-2019-03-21 16:14:57 INFO  BookManager:276 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-
-
-2019-03-21 16:14:57 INFO  BookManager:286 - 
- ================ Array Collection ================ 
-
-2019-03-21 16:14:57 INFO  BookManager:292 - 
-Cate carti doriti sa introduceti in biblioteca?
-2019-03-21 16:15:02 INFO  BookManager:306 - 
-Pentru articolul cu numarul ~1~:
-2019-03-21 16:15:02 INFO  BookManager:307 - 
-Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:15:16 INFO  BookManager:309 - 
-Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:15:20 INFO  BookManager:322 - 
-Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:15:31 INFO  BookManager:306 - 
-Pentru articolul cu numarul ~2~:
-2019-03-21 16:15:31 INFO  BookManager:307 - 
-Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:15:43 INFO  BookManager:309 - 
-Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:15:47 INFO  BookManager:322 - 
-Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:16:03 INFO  BookManager:306 - 
-Pentru articolul cu numarul ~3~:
-2019-03-21 16:16:03 INFO  BookManager:307 - 
-Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:16:14 INFO  BookManager:309 - 
-Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:16:18 INFO  BookManager:322 - 
-Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:16:26 INFO  BookManager:330 - 
-Ati adaugat in biblioteca urmatoarele 3 carti:
-2019-03-21 16:16:26 INFO  BookManager:332 - 1) Book: nume = 'Zero vol 1' / nrPagini = 300 / ISBN 6789-564-34-7
-2019-03-21 16:16:26 INFO  BookManager:332 - 2) Book: nume = 'Zero vol 2' / nrPagini = 354 / ISBN 3567-345-34-5
-2019-03-21 16:16:26 INFO  BookManager:332 - 3) Book: nume = 'Zero vol 3' / nrPagini = 234 / ISBN 2456-346-35-3
-2019-03-21 16:16:26 INFO  BookManager:338 - 
-Introduceti numarul cartii pe care doriti sa o scoateti din librarie: 
-2019-03-21 16:18:35 INFO  BookManager:357 - 
-Au mai ramas in biblioteca urmatoarele titluri:
-2019-03-21 16:18:35 INFO  BookManager:359 - 1) Book: nume = 'Zero vol 1' / nrPagini = 300 / ISBN 6789-564-34-7
-2019-03-21 16:18:35 INFO  BookManager:359 - 2) Book: nume = 'Zero vol 2' / nrPagini = 354 / ISBN 3567-345-34-5
-2019-03-21 16:18:35 INFO  BookManager:387 - 
- ================ LinkedHashSet ================ 
-
-2019-03-21 16:18:35 INFO  BookManager:391 - 
- The following objects have been added to setLibrary: 
-
-2019-03-21 16:18:35 INFO  BookManager:418 - Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:18:35 INFO  BookManager:418 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:18:35 INFO  BookManager:418 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:18:35 INFO  BookManager:418 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
-2019-03-21 16:18:35 INFO  BookManager:421 - Test operations in LinkedHashSet - others that we already saw in ArrayList and Array collections.
-2019-03-21 16:18:35 INFO  BookManager:423 - Size of LinkedHashSet is: 4 items.
-2019-03-21 16:18:35 INFO  BookManager:425 - The original LinkedHashSet is [Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7, Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
-2019-03-21 16:18:35 INFO  BookManager:427 - Removing carte1 from list  = true
-2019-03-21 16:18:35 INFO  BookManager:429 - Trying to remove 'carte3' which is not present: false
-2019-03-21 16:18:35 INFO  BookManager:431 - Checking if 'art1' is present = true
-2019-03-21 16:18:35 INFO  BookManager:433 - Updated LinkedHashSet: [Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
-2019-03-21 16:18:35 INFO  BookManager:437 - 
-The array is:
-2019-03-21 16:18:35 INFO  BookManager:438 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:18:35 INFO  BookManager:438 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:18:35 INFO  BookManager:438 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
-2019-03-21 16:18:35 INFO  BookManager:442 - LinkedHashSet after use of clear() method: []
-2019-03-21 16:20:27 INFO  BookManager:170 - 
- ================ ArrayList Collection ================ 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:74 - ...adding book...
-2019-03-21 16:20:27 INFO  Library:76 - ...book added 
-
-2019-03-21 16:20:27 INFO  Library:118 - removing book
-2019-03-21 16:20:27 INFO  Library:120 - book removed 
-
-2019-03-21 16:20:27 INFO  BookManager:202 - 
-Numar de carti existente in biblioteca: 13
-
-2019-03-21 16:20:27 INFO  BookManager:243 - ...reading file...
-2019-03-21 16:20:27 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
-2019-03-21 16:20:27 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:20:27 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:20:27 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
-2019-03-21 16:20:27 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
-2019-03-21 16:20:27 INFO  BookManager:248 - ...file reading done 
-
-2019-03-21 16:20:27 INFO  BookManager:260 - Introduceti numele cartii cautate: 
-2019-03-21 16:21:07 INFO  BookManager:170 - 
- ================ ArrayList Collection ================ 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:74 - ...adding book...
-2019-03-21 16:21:07 INFO  Library:76 - ...book added 
-
-2019-03-21 16:21:07 INFO  Library:118 - removing book
-2019-03-21 16:21:07 INFO  Library:120 - book removed 
-
-2019-03-21 16:21:07 INFO  BookManager:202 - Numarul de carti existente in biblioteca este: 13
-
-2019-03-21 16:21:07 INFO  BookManager:243 - ...reading file...
-2019-03-21 16:21:07 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
-2019-03-21 16:21:07 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:21:07 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:21:07 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
-2019-03-21 16:21:07 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
-2019-03-21 16:21:07 INFO  BookManager:248 - ...file reading done 
-
-2019-03-21 16:21:07 INFO  BookManager:260 - Introduceti numele cartii cautate: 
-2019-03-21 16:21:27 INFO  Library:103 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca! 
-
-2019-03-21 16:21:27 INFO  BookManager:268 - Introduceti numarul pozitiei cautate din lista de 13 carti existente in biblioteca:
-2019-03-21 16:21:32 INFO  BookManager:271 - Cartea aflata la pozitia ~2~ este:
-2019-03-21 16:21:32 INFO  BookManager:276 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-
-
-2019-03-21 16:21:32 INFO  BookManager:286 - 
- ================ Array Collection ================ 
-
-2019-03-21 16:21:32 INFO  BookManager:292 - Cate carti doriti sa introduceti in biblioteca?
-2019-03-21 16:21:44 INFO  BookManager:306 - Pentru articolul cu numarul ~1~:
-2019-03-21 16:21:44 INFO  BookManager:307 - Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:21:54 INFO  BookManager:309 - Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:22:29 INFO  BookManager:170 - 
- ================ ArrayList Collection ================ 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:74 - ...adding book...
-2019-03-21 16:22:29 INFO  Library:76 - ...book added 
-
-2019-03-21 16:22:29 INFO  Library:118 - removing book
-2019-03-21 16:22:29 INFO  Library:120 - book removed 
-
-2019-03-21 16:22:29 INFO  BookManager:202 - Numarul de carti existente in biblioteca este: 13
-
-2019-03-21 16:22:29 INFO  BookManager:243 - ...reading file...
-2019-03-21 16:22:29 INFO  BookManager:246 - In biblioteca se afla urmatoarele titluri:
-2019-03-21 16:22:29 INFO  BookManager:246 - ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:22:29 INFO  BookManager:246 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:22:29 INFO  BookManager:246 - ~3~ Novel: nume = 'Primul roman' / nrPagini = 100 / ISBN 973-8280-75-5 / gen literar = 'Fantasy'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~4~ Novel: nume = 'Al doilea roman' / nrPagini = 500 / ISBN 973-8187-48-3 / gen literar = 'Policier'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~8~ GenericBiography: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = 'Compozitori'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~9~ GenericBiography: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = 'Pictori'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
-2019-03-21 16:22:29 INFO  BookManager:246 - ~13~ GenericBiography: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = 'Scriitori'
-2019-03-21 16:22:29 INFO  BookManager:248 - ...file reading done 
-
-2019-03-21 16:22:29 INFO  BookManager:260 - Introduceti numele cartii cautate: 
-2019-03-21 16:22:37 INFO  Library:103 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca! 
-
-2019-03-21 16:22:37 INFO  BookManager:268 - Introduceti numarul pozitiei cautate din lista de 13 carti existente in biblioteca:
-2019-03-21 16:22:41 INFO  BookManager:271 - Cartea aflata la pozitia ~2~ este:
-2019-03-21 16:22:41 INFO  BookManager:276 - ~2~ Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-
-
-2019-03-21 16:22:41 INFO  BookManager:286 - 
- ================ Array Collection ================ 
-
-2019-03-21 16:22:41 INFO  BookManager:292 - Cate carti doriti sa introduceti in biblioteca?
-2019-03-21 16:22:44 INFO  BookManager:306 - Pentru articolul cu numarul ~1~:
-2019-03-21 16:22:44 INFO  BookManager:307 - Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:22:51 INFO  BookManager:309 - Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:22:55 INFO  BookManager:322 - Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:22:59 INFO  BookManager:306 - Pentru articolul cu numarul ~2~:
-2019-03-21 16:22:59 INFO  BookManager:307 - Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:23:12 INFO  BookManager:309 - Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:23:15 INFO  BookManager:322 - Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:23:18 INFO  BookManager:306 - Pentru articolul cu numarul ~3~:
-2019-03-21 16:23:18 INFO  BookManager:307 - Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:23:25 INFO  BookManager:309 - Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:
-2019-03-21 16:23:29 INFO  BookManager:322 - Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):
-2019-03-21 16:23:33 INFO  BookManager:330 - Ati adaugat in biblioteca urmatoarele 3 carti:
-2019-03-21 16:23:33 INFO  BookManager:332 - 1) Book: nume = 'Zero vol 1' / nrPagini = 304 / ISBN 973-8180-59-4
-2019-03-21 16:23:33 INFO  BookManager:332 - 2) Book: nume = 'Zero vol 2' / nrPagini = 453 / ISBN 973-8180-59-5
-2019-03-21 16:23:33 INFO  BookManager:332 - 3) Book: nume = 'Zero vol 3' / nrPagini = 234 / ISBN 973-8180-59-6
-2019-03-21 16:23:33 INFO  BookManager:338 - Introduceti numarul cartii pe care doriti sa o scoateti din librarie: 
-2019-03-21 16:23:44 INFO  BookManager:357 - Au mai ramas in biblioteca urmatoarele titluri:
-2019-03-21 16:23:44 INFO  BookManager:359 - 1) Book: nume = 'Zero vol 1' / nrPagini = 304 / ISBN 973-8180-59-4
-2019-03-21 16:23:44 INFO  BookManager:359 - 2) Book: nume = 'Zero vol 2' / nrPagini = 453 / ISBN 973-8180-59-5
-2019-03-21 16:23:44 INFO  BookManager:387 - 
- ================ LinkedHashSet ================ 
-
-2019-03-21 16:23:44 INFO  BookManager:391 - The following objects have been added to setLibrary:
-2019-03-21 16:23:44 INFO  BookManager:418 - Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
-2019-03-21 16:23:44 INFO  BookManager:418 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:23:44 INFO  BookManager:418 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:23:44 INFO  BookManager:418 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
-2019-03-21 16:23:44 INFO  BookManager:421 - Test operations in LinkedHashSet - others that we already saw in ArrayList and Array collections.
-2019-03-21 16:23:44 INFO  BookManager:423 - Size of LinkedHashSet is: 4 items.
-2019-03-21 16:23:44 INFO  BookManager:425 - The original LinkedHashSet is [Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7, Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
-2019-03-21 16:23:44 INFO  BookManager:427 - Removing carte1 from list  = true
-2019-03-21 16:23:44 INFO  BookManager:429 - Trying to remove 'carte3' which is not present: false
-2019-03-21 16:23:44 INFO  BookManager:431 - Checking if 'art1' is present = true
-2019-03-21 16:23:44 INFO  BookManager:433 - Updated LinkedHashSet: [Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
-2019-03-21 16:23:44 INFO  BookManager:437 - The array is:
-2019-03-21 16:23:44 INFO  BookManager:438 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
-2019-03-21 16:23:44 INFO  BookManager:438 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
-2019-03-21 16:23:44 INFO  BookManager:438 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
-2019-03-21 16:23:44 INFO  BookManager:442 - LinkedHashSet after use of clear() method: []
+2019-03-22 00:09:14 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:09:14 INFO  Library:71 - ...adding book...
+2019-03-22 00:09:14 INFO  Library:73 - ...book added
+2019-03-22 00:09:14 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:09:14 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:09:14 INFO  Library:71 - ...adding book...
+2019-03-22 00:09:14 INFO  Library:73 - ...book added
+2019-03-22 00:09:14 INFO  Library:98 - Cartea cu titlul 'numeTest' exista in aceasta biblioteca. 
+
+2019-03-22 00:09:14 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:09:14 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:09:14 INFO  Library:71 - ...adding book...
+2019-03-22 00:09:14 INFO  Library:73 - ...book added
+2019-03-22 00:09:14 INFO  Library:114 - removing book
+2019-03-22 00:09:14 INFO  Library:116 - book removed 
+
+2019-03-22 00:09:14 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:10:22 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:10:22 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:22 INFO  Library:73 - ...book added
+2019-03-22 00:10:22 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:10:22 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:10:22 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:22 INFO  Library:73 - ...book added
+2019-03-22 00:10:22 INFO  Library:98 - Cartea cu titlul 'numeTest' exista in aceasta biblioteca. 
+
+2019-03-22 00:10:22 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:10:22 INFO  Library:30 - Initializing test... 
+
+2019-03-22 00:10:22 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:22 INFO  Library:73 - ...book added
+2019-03-22 00:10:22 INFO  Library:114 - removing book
+2019-03-22 00:10:22 INFO  Library:116 - book removed 
+
+2019-03-22 00:10:22 INFO  Library:75 - ...Test concluded.
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:71 - ...adding book...
+2019-03-22 00:10:32 INFO  Library:73 - ...book added
+2019-03-22 00:10:32 INFO  Library:114 - removing book
+2019-03-22 00:10:32 INFO  Library:116 - book removed 
+
+2019-03-22 00:10:32 INFO  BookManager:230 - ...reading file...
+2019-03-22 00:10:32 INFO  BookManager:235 - ...file reading done. 
+
+2019-03-22 00:10:45 INFO  Library:98 - Cartea cu titlul 'Primul roman' exista in aceasta biblioteca. 
+
+2019-03-22 00:11:23 ERROR BookManager:294 - *** The size of this item is too small to be kept in this library ***
+2019-03-22 00:12:20 ERROR BookManager:294 - *** The size of this item is too small to be kept in this library ***
+2019-03-22 00:13:10 INFO  BookManager:310 - 1) Book: nume = 'Zero vol 1' / nrPagini = 99 / ISBN 1234-456-78-9
+2019-03-22 00:13:10 INFO  BookManager:310 - 2) Book: nume = 'Zero vol 2' / nrPagini = 100 / ISBN 1234-567-89-8
+2019-03-22 00:13:10 INFO  BookManager:310 - 3) Book: nume = 'Zero vol 3' / nrPagini = 88 / ISBN 1234-567-89-7
+2019-03-22 00:13:10 INFO  BookManager:310 - 4) Book: nume = 'Zero vol 4' / nrPagini = 456 / ISBN 1234-456-78-6
+2019-03-22 00:13:10 INFO  BookManager:310 - 5) Book: nume = 'Zero vol 5' / nrPagini = 234 / ISBN 1234-567-89-5
+2019-03-22 00:13:26 INFO  BookManager:331 - 1) Book: nume = 'Zero vol 1' / nrPagini = 99 / ISBN 1234-456-78-9
+2019-03-22 00:13:26 INFO  BookManager:331 - 2) Book: nume = 'Zero vol 2' / nrPagini = 100 / ISBN 1234-567-89-8
+2019-03-22 00:13:26 INFO  BookManager:331 - 3) Book: nume = 'Zero vol 3' / nrPagini = 88 / ISBN 1234-567-89-7
+2019-03-22 00:13:26 INFO  BookManager:331 - 4) Book: nume = 'Zero vol 4' / nrPagini = 456 / ISBN 1234-456-78-6
+2019-03-22 00:13:26 INFO  BookManager:390 - Size of LinkedHashSet is: 4 items.
+2019-03-22 00:13:26 INFO  BookManager:392 - The original LinkedHashSet is [Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7, Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
+2019-03-22 00:13:26 INFO  BookManager:394 - Removing 'carte1' from list  = true
+2019-03-22 00:13:26 INFO  BookManager:396 - Trying to remove 'carte3' which is not present: false
+2019-03-22 00:13:26 INFO  BookManager:398 - Checking if 'art1' is present = true
+2019-03-22 00:13:26 INFO  BookManager:400 - Updated LinkedHashSet: [Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1, ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic', ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra']
+2019-03-22 00:13:26 INFO  BookManager:405 - Book: nume = 'A doua carte' / nrPagini = 100 / ISBN 973-8190-49-1
+2019-03-22 00:13:26 INFO  BookManager:405 - ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
+2019-03-22 00:13:26 INFO  BookManager:405 - ArtAlbum: nume = 'Al doilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-46-1 / calitateHartie = 'Extra'
+2019-03-22 00:13:26 INFO  BookManager:409 - LinkedHashSet after use of clear() method: []

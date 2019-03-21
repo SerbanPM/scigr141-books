@@ -2,19 +2,17 @@ package ro.sci.books;
 
 import org.apache.log4j.Logger;
 
-/**
+/*
  * Represents a category of books that can be found in this library.
  */
 public class ArtAlbum extends Book {
 
-    /**
-     * Creates a logger object for this class.
-     */
+
+    // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(ArtAlbum.class);
 
-    /**
-     * Represents the paper quality of the albums.
-     */
+
+    // Represents the paper quality of the albums.
     private String calitateHartie;
 
     /**

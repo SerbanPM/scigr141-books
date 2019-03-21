@@ -37,7 +37,7 @@ import java.util.*;
  */
 class BookManager {
 
-    /**
+    /*
      * Creates a logger object for this class.
      * There are different levels of logging.
      * Depending on the level specified in the log4j.properties file, it skips the above levels.
@@ -53,7 +53,7 @@ class BookManager {
      * logger.warn("This is WARN").
      * <p>
      * The error level of logging - for logging errors, for example trying to open file that is not there:
-     * logger.error("Sorry, something wrong!");
+     * logger.error("Something went wrong!");
      */
     private final static Logger logger = Logger.getLogger(BookManager.class);
 
@@ -167,11 +167,11 @@ class BookManager {
         ((GenericBiography) biography).setDomain("Scriitori");
 
 
-        logger.info("\n ================ ArrayList Collection ================ \n");
+        // =============================Implementing collections using ArrayLists ===================================
 
-        /**
-         * Creates an array list with the added objects.
-         */
+        System.out.println("\n ================ ArrayList Collection ================ \n");
+
+        // Creates an array list with the added objects.
         Library librarie = new Library();
 
         // Adds items to the list.
@@ -190,106 +190,84 @@ class BookManager {
         librarie.addBook(albumSculptura);
         librarie.addBook(biography);
 
-
         // Removes intems from the list
         librarie.remove(art2);
 
         // Writes and prints the item list.
         List cartileDinBiblioteca = librarie.getListOfBooks();
 
-
         // Counts and prints the number of the items in the list.
-        logger.info("Numarul de carti existente in biblioteca este: " + librarie.getItemCount() + "\n");
+        System.out.println("Numarul de carti existente in biblioteca este: " + librarie.getItemCount() + "\n");
 
-        /**
-         * Writes a file containing the list of objects in the library.
-         */
+        // Writes a file containing the list of objects in the library.
         File arrayListInventory = new File("src/ro/sci/resources/arrayListLibrary.txt");
         try (BufferedWriter fileWriter01 = new BufferedWriter(new FileWriter("src/ro/sci/resources/arrayListLibrary.txt"))) {
 
-            /**
-             * Creates a string containing the books in the library.
-             */
+            // Creates a string containing the books in the library.
             String listaNeprelucrata = cartileDinBiblioteca.toString();
 
-            /**
-             * Eliminates the first and the last characters from the string.
-             */
+            // Eliminates the first and the last characters from the string.
             String centralizatorCarti01 = listaNeprelucrata.substring(1, listaNeprelucrata.length() - 1);
-            /**
-             * Splits the string where a certain pattern is found.
-             */
+
+            // Splits the string where a certain pattern is found.
             String[] elementeLibrarie01 = centralizatorCarti01.split(",\\s");
             fileWriter01.write("In biblioteca se afla urmatoarele titluri:");
 
-            /**
-             * 1. Java foreach loop prints the separated elements of the library.
-             * 2. Add position numbers to every element of the library.
-             */
+            // Java foreach loop prints the separated elements of the library.
+            // Add position numbers to every element of the library.
             int index = 1;
             for (String e : elementeLibrarie01) {
-                fileWriter01.write("\n~" + index++ + "~ " + e);
+                fileWriter01.write("\n~" + (index++) + "~ " + e);
             }
 
         } catch (IOException e) {
             logger.error("General I/O exception for file: " + arrayListInventory.toString());
         }
 
-        /**
-         * Reads the file containing the list of objects in the library.
-         */
+        // Reads the file containing the list of objects in the library.
         Scanner readArrayListInventory = null;
         try {
             logger.info("...reading file...");
             readArrayListInventory = new Scanner(new File("src/ro/sci/resources/arrayListLibrary.txt"));
             while (readArrayListInventory.hasNextLine()) {
-                logger.info(readArrayListInventory.nextLine());
+                System.out.println(readArrayListInventory.nextLine());
             }
-            logger.info("...file reading done \n");
+            logger.info("...file reading done. \n");
         } catch (FileNotFoundException e) {
             logger.error("...file not found " + e.getMessage());
         }
         readArrayListInventory.close();
 
-
-        /**
-         * Searches for a book using the name inquired by user.
-         * Prints the result of the search.
-         */
+        // Searches for a book using the name inquired by user.
+        // Prints the result of the search.
         Scanner keyboard = new Scanner(System.in);
-        logger.info("Introduceti numele cartii cautate: ");
+        System.out.println("Introduceti numele cartii cautate: ");
         String mySearch = keyboard.next().concat(keyboard.nextLine());
         librarie.search(mySearch);
 
-        /**
-         * Searches for a book using the position number inquired by user.
-         * Prints the name of the book.
-         */
-        logger.info("Introduceti numarul pozitiei cautate din lista de " + librarie.getItemCount() + " carti existente in biblioteca:");
+        // Searches for a book using the position number inquired by user.
+        // Prints the name of the book.
+        System.out.println("Introduceti numarul pozitiei cautate din lista de " + librarie.getItemCount() + " carti existente in biblioteca:");
         int myint = keyboard.nextInt();
         String myString = keyboard.nextLine();
-        logger.info("Cartea aflata la pozitia ~" + myint + "~ este:");
+        System.out.println("Cartea aflata la pozitia ~" + myint + "~ este:");
 
         try {
             List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/arrayListLibrary.txt"));
             String[] arrayLines = allLines.toArray(new String[0]);
-            logger.info(arrayLines[myint] + "\n\n");
+            System.out.println(arrayLines[myint + 1] + "\n\n");
         } catch (IOException e) {
-            logger.error("Sorry, something went wrong!", e);
+            logger.error("Yay, something went wrong!", e);
         }
 
 
-        /**
-         * =============================Implementing collections using Arrays ===================================
-         */
+        // =============================Implementing collections using Arrays ===================================
 
-        logger.info("\n ================ Array Collection ================ \n");
+        System.out.println(" ================ Array Collection ================ \n");
 
-        /**
-         *  Reads the input from the user and sets it as the array lenght.
-         */
+        // Reads the input from the user and sets it as the array lenght.
         int arraySize;
-        logger.info("Cate carti doriti sa introduceti in biblioteca?");
+        System.out.println("Cate carti doriti sa introduceti in biblioteca?");
         arraySize = keyboard.nextInt();
         Book[] booksInArray = new Book[arraySize];
 
@@ -303,23 +281,23 @@ class BookManager {
          * @param isbnInArray sets input string as the ISBN code of the book being entered in the library.
          */
         for (int i = 0; i < arraySize; i++) {
-            logger.info("Pentru articolul cu numarul ~" + (i + 1) + "~:");
-            logger.info("Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:");
+            System.out.println("\nPentru articolul cu numarul ~" + (i + 1) + "~:");
+            System.out.println("Introduceti numele cartii pe care doriti sa o introduceti in biblioteca:");
             String nameInArray = keyboard.next().concat(keyboard.nextLine());
-            logger.info("Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:");
+            System.out.println("Introduceti numarul de pagini al cartii pe care doriti sa o introduceti in biblioteca:");
             int pagesInArray = keyboard.nextInt();
 
             if (pagesInArray < 100) {
                 try {
-                    throw new CustomException("The size of this item is too small to be kept in this library. \n");
+                    throw new CustomException("*** The size of this item is too small to be kept in this library ***");
                 } catch (CustomException e) {
-                    e.printStackTrace();
+                    logger.error(e.getMessage());
                 }
             } else {
                 pagesInArray = pagesInArray;
             }
 
-            logger.info("Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):");
+            System.out.println("Introduceti codul ISBN al cartii pe care doriti sa o introduceti in biblioteca (in format ***-****-**-*):");
             String isbnInArray = keyboard.next().concat(keyboard.nextLine());
             Book arr1 = new Book(nameInArray, pagesInArray, isbnInArray);
             booksInArray[i] = arr1;
@@ -327,21 +305,17 @@ class BookManager {
         }
 
         // Prints all the array elements.
-        logger.info("Ati adaugat in biblioteca urmatoarele " + arraySize + " carti:");
+        System.out.println("\nAti adaugat in biblioteca urmatoarele " + arraySize + " carti:");
         for (int counter = 0; counter < arraySize; counter++) {
             logger.info((counter + 1) + ") " + booksInArray[counter]);
         }
 
-        /**
-         * Takes input from user and calculates de index of the item to be removed.
-         */
-        logger.info("Introduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
+        // Takes input from user and calculates de index of the item to be removed.
+        System.out.println("\nIntroduceti numarul cartii pe care doriti sa o scoateti din librarie: ");
         int positionToRemove = keyboard.nextInt();
         int indexToRemove = positionToRemove - 1;
 
-        /**
-         * Removes an item from the array, copying the remaining items in a different array with a length diminished by one.
-         */
+        // Removes an item from the array, copying the remaining items in a different array with a length diminished by one.
         Book[] diminishedArray = new Book[booksInArray.length - 1];
         for (int i = 0; i < booksInArray.length; i++) {
             if (i < indexToRemove) {
@@ -351,17 +325,13 @@ class BookManager {
             }
         }
 
-        /**
-         * Prints the new array.
-         */
-        logger.info("Au mai ramas in biblioteca urmatoarele titluri:");
+        // Prints the new array.
+        System.out.println("Au mai ramas in biblioteca urmatoarele titluri:");
         for (int counter = 0; counter < diminishedArray.length; counter++) {
             logger.info((counter + 1) + ") " + diminishedArray[counter]);
         }
 
-        /**
-         * Writes a file containing the list of objects in the array.
-         */
+        // Writes a file containing the list of objects in the array.
         File arrayInventory = new File("src/ro/sci/resources/arrayLibrary.txt");
         try (BufferedWriter fileWriter02 = new BufferedWriter(new FileWriter("src/ro/sci/resources/arrayLibrary.txt"))) {
 
@@ -380,15 +350,12 @@ class BookManager {
         keyboard.close();
 
 
-        /**
-         * =============================Implementing collections using LinkedHashSet ===================================
-         */
+        // =============================Implementing collections using LinkedHashSet ===================================
 
-        logger.info("\n ================ LinkedHashSet ================ \n");
-
+        System.out.println("\n ================ LinkedHashSet ================ \n");
 
         Set<Book> setLibrary = new LinkedHashSet<>();
-        logger.info("The following objects have been added to setLibrary:");
+        System.out.println("The following objects have been added to setLibrary after eliminating the doubled ISBNs:");
 
         /**
          * Adding two objects with the same isbn, carte1 and carte3. The equals() and hashCode() method implemeted in the Book class
@@ -415,16 +382,16 @@ class BookManager {
 
         // Iterate through the collection
         for (Object element : setLibrary) {
-            logger.info(element);
+            System.out.println(element);
         }
 
-        logger.info("Test operations in LinkedHashSet - others that we already saw in ArrayList and Array collections.");
+        System.out.println("\nOperations in LinkedHashSet - others that we already saw in ArrayList and Array collections:");
         // Counting the elements of the LinkedHashSet.
         logger.info("Size of LinkedHashSet is: " + setLibrary.size() + " items.");
         // Displaying the LinkedHashSet.
         logger.info("The original LinkedHashSet is " + setLibrary);
         // Removing an element from the LinkedHashSet.
-        logger.info("Removing carte1 from list  = " + setLibrary.remove(carte1));
+        logger.info("Removing 'carte1' from list  = " + setLibrary.remove(carte1));
         // Trying to remove an obeject that is not in the LinkedHashSet.
         logger.info("Trying to remove 'carte3' which is not present: " + setLibrary.remove(carte3));
         // This method returns true if this set contains the specified element.
@@ -434,10 +401,10 @@ class BookManager {
 
         // Creating an array from a LinkedHashSet.
         Object[] arrayFromLinkedHashSet = setLibrary.toArray();
-        logger.info("The array is:");
+        System.out.println("\nThe array created from the LinkedHashSet is:");
         for (Object o : arrayFromLinkedHashSet) logger.info(o);
 
-        // Using clear() method to remove all the items in the collection.
+        System.out.println("\nThe clear() method removes all the items in the collection.");
         setLibrary.clear();
         logger.info("LinkedHashSet after use of clear() method: " + setLibrary);
     }
