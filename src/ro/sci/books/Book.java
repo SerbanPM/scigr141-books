@@ -80,7 +80,7 @@ public class Book {
      *
      * @return int data type, this book number of pages.
      */
-    public int getNrPagini( ){
+    int getNrPagini( ){
         return nrPagini;
     }
 
@@ -116,14 +116,14 @@ public class Book {
      *
      * @return An int containing the year this book was published.
      */
-    public String getIsbn( ){
+    String getIsbn( ){
         return isbn;
     }
 
     /**
      * Setter method used to input the ISBN code of this book.
      *
-     * @param anAparitie string data type containing the ISBN code of this book.
+     * @param isbn string data type containing the ISBN code of this book.
      */
     public void setIsbn(String isbn){
         this.isbn = isbn;

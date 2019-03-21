@@ -1,53 +1,53 @@
 
+Lsquid:S1481€"-Remove this unused "myString" local variable.(î´á8õğ“é™-
+\
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(Ş›œüøÿÿÿÿ8õğ“é™-
+vsquid:ModifiersOrderCheck9"EReorder the modifiers to comply with the Java Language Specification.(Í‘‰Íûÿÿÿÿ8õğ“é™-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÄƒÑûıÿÿÿÿ8õğ“é™-
 W
-squid:S106î"9Replace this use of System.out or System.err by a logger.(°ŠÅ¨8¾ÍŞ¹™-
-\
-squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÄƒÑûıÿÿÿÿ8¾ÍŞ¹™-
-Lsquid:S1481ø"-Remove this unused "myString" local variable.(î´á8¿ÍŞ¹™-
-\
-squid:S106ù"9Replace this use of System.out or System.err by a logger.(–·…ûÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106ö"9Replace this use of System.out or System.err by a logger.( ğÌ¹ÿÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106ß"9Replace this use of System.out or System.err by a logger.(¿ÈÉÑıÿÿÿÿ8¿ÍŞ¹™-
+squid:S106²"9Replace this use of System.out or System.err by a logger.(ĞËÀ®8õğ“é™-
 W
-squid:S106"9Replace this use of System.out or System.err by a logger.(õ¹¾†8§óÜ¹™-
-Psquid:S1153Ô"1Directly append the argument of String.valueOf().(ÎôÓ8¿ÍŞ¹™-
-\
-squid:S106²"9Replace this use of System.out or System.err by a logger.(ïÌ“…üÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106¡"9Replace this use of System.out or System.err by a logger.(¤»À¨ûÿÿÿÿ8¾ÍŞ¹™-
+squid:S106½"9Replace this use of System.out or System.err by a logger.(ÊàÂ×8õğ“é™-
+ˆsquid:S1192Â"jDefine a constant instead of duplicating this literal "src/ro/sci/resources/arrayListLibrary.txt" 4 times.(ÈŒ“m8õğ“é™-
 W
-squid:S106„"9Replace this use of System.out or System.err by a logger.(¯Äüø8¿ÍŞ¹™-
-psquid:S3776/"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8¿ÍŞ¹™-
-vsquid:ModifiersOrderCheck-"EReorder the modifiers to comply with the Java Language Specification.(Í‘‰Íûÿÿÿÿ8¾ÍŞ¹™-
+squid:S106ö"9Replace this use of System.out or System.err by a logger.(°ŠÅ¨8õğ“é™-
+W
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(¹¿¸8õğ“é™-
+\
+squid:S106º"9Replace this use of System.out or System.err by a logger.(ïÌ“…üÿÿÿÿ8øÈè™-
+psquid:S3776;"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8õğ“é™-
+\
+squid:S106ş"9Replace this use of System.out or System.err by a logger.( ğÌ¹ÿÿÿÿÿ8øÈè™-
+\
+squid:S106©"9Replace this use of System.out or System.err by a logger.(¤»À¨ûÿÿÿÿ8õğ“é™-
+W
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(Ù„ñ»8õğ“é™-
+jsquid:S1192p"GDefine a constant instead of duplicating this literal "Normal" 3 times.(¤·©Âøÿÿÿÿ8õğ“é™-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(–·…ûÿÿÿÿ8õğ“é™-
+W
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(²—”î8øÈè™-
+\
+squid:S106…"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8õğ“é™-
+\
+squid:S106†"9Replace this use of System.out or System.err by a logger.(Åşµàşÿÿÿÿ8õğ“é™-
+W
+squid:S106¥"9Replace this use of System.out or System.err by a logger.(õ¹¾†8õğ“é™-
+\
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(Ìê”Šşÿÿÿÿ8õğ“é™-
+W
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(¯Äüø8õğ“é™-
+\
+squid:S106°"9Replace this use of System.out or System.err by a logger.(õ¾ïûÿÿÿÿ8õğ“é™-
 V
-squid:S106Ø"9Replace this use of System.out or System.err by a logger.(õ¨Â8¾ÍŞ¹™-
+squid:S106à"9Replace this use of System.out or System.err by a logger.(õ¨Â8õğ“é™-
 W
-squid:S106œ"9Replace this use of System.out or System.err by a logger.(²—”î8¾ÍŞ¹™-
+squid:S106–"9Replace this use of System.out or System.err by a logger.(¤®Â¥8õğ“é™-
+csquid:S2095ç"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÃöÃW8õğ“é™-
 W
-squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(¦‘ãİ8¾ÍŞ¹™-
+squid:S106é"9Replace this use of System.out or System.err by a logger.(Ó®İÀ8õğ“é™-
 W
-squid:S106Ö"9Replace this use of System.out or System.err by a logger.(Ù„ñ»8¾ÍŞ¹™-
+squid:S106§"9Replace this use of System.out or System.err by a logger.(¦‘ãİ8õğ“é™-
 \
-squid:S106¨"9Replace this use of System.out or System.err by a logger.(õ¾ïûÿÿÿÿ8¾ÍŞ¹™-
-jsquid:S1192w"GDefine a constant instead of duplicating this literal "Normal" 3 times.(¤·©Âøÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106ş"9Replace this use of System.out or System.err by a logger.(ªæË¤ùÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106ı"9Replace this use of System.out or System.err by a logger.(¬ĞË‹ùÿÿÿÿ8¿ÍŞ¹™-
-\
-squid:S106Ã"9Replace this use of System.out or System.err by a logger.(Ş›œüøÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106µ"9Replace this use of System.out or System.err by a logger.(æó¼µùÿÿÿÿ8¾ÍŞ¹™-
-\
-squid:S106Å"9Replace this use of System.out or System.err by a logger.(Ìê”Šşÿÿÿÿ8¾ÍŞ¹™-
-ˆsquid:S1192º"jDefine a constant instead of duplicating this literal "src/ro/sci/resources/arrayListLibrary.txt" 4 times.(ÈŒ“m8¾ÍŞ¹™-
-Psquid:S1153Ò"1Directly append the argument of String.valueOf().(ÈÔÛÆ8¿ÍŞ¹™-
-W
-squid:S106"9Replace this use of System.out or System.err by a logger.(¤®Â¥8¾ÍŞ¹™-
-W
-squid:S106ª"9Replace this use of System.out or System.err by a logger.(ĞËÀ®8¾ÍŞ¹™-
-W
-squid:S106°"9Replace this use of System.out or System.err by a logger.(¹¿¸8¾ÍŞ¹™-
-csquid:S2095ß"EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÃöÃW8¾ÍŞ¹™-
+squid:S106ç"9Replace this use of System.out or System.err by a logger.(¿ÈÉÑıÿÿÿÿ8õğ“é™-

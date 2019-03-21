@@ -26,7 +26,7 @@ public class LibraryTest {
 
     final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
 
-    Library testLibrary;
+    private Library testLibrary;
 
     @Before
     public void before( ){

@@ -29,17 +29,12 @@ public class Library implements LibraryInterface {
     /**
      * Creates a logger object for this class.
      */
-    final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
+    private final static org.apache.log4j.Logger logger = Logger.getLogger(Library.class);
 
     /**
      * Represents a list of books that can be found in this library.
      */
     private List<Book> listOfBooks;
-
-    /**
-     * Represents the number of books that can be found in this library.
-     */
-    private int numberOfItemsInLibrary;
 
     public Library(Book books){
 
@@ -87,7 +82,10 @@ public class Library implements LibraryInterface {
      * @return numberOfItemsInLibrary An int representing the number of objects in the list.
      */
     public int getItemCount( ){
-        numberOfItemsInLibrary = listOfBooks.size();
+        /**
+         * Represents the number of books that can be found in this library.
+         */
+        int numberOfItemsInLibrary = listOfBooks.size();
         return numberOfItemsInLibrary;
     }
 
@@ -103,11 +101,11 @@ public class Library implements LibraryInterface {
     public Book search(String book){
         for (Book carte : listOfBooks) {
             if (book.equals(carte.getNume())) {
-                System.out.println("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca!");
+                logger.info("Cartea cu titlul " + '\'' + book + '\'' + " exista in aceasta biblioteca!");
                 return carte;
             }
         }
-        System.out.println("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca!");
+        logger.info("Cartea cu titlul " + '\'' + book + '\'' + " nu exista in aceasta bilioteca!");
         return null;
     }
 
@@ -123,16 +121,14 @@ public class Library implements LibraryInterface {
         logger.info("book removed");
     }
 
+    /**
+     * Retrieves the object corresponding to the index parameter.
+     *      *
+     * @param index an integer reprezenting the idex of the item in the collection.
+     * @return returns the item corresponding to the index parameter.
+     */
     public Book getBook(int index){
         return listOfBooks.get(index);
-    }
-
-
-
-    public Book[] arrayOfBooks = new Book[0];
-
-    public void removeFromArray(Book book){
-
     }
 
 }

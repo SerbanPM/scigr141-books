@@ -2,10 +2,7 @@ package ro.sci.management;
 
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import ro.sci.books.ArtAlbum;
-import ro.sci.books.Book;
-import ro.sci.books.Novel;
-import ro.sci.books.SculptureAlbum;
+import ro.sci.books.*;
 import ro.sci.library.Library;
 
 import java.io.*;
@@ -41,6 +38,21 @@ public class InventoryManagement {
 
     /**
      * Creates a logger object for this class.
+     * There are different levels of logging.
+     * Depending on the level specified in the log4j.properties file, it skips the above levels.
+     * Each of the various levels of logging are used for particular situations.
+     * <p>
+     * This is the debug level of logging - use at the start and at the end of the function:
+     * logger.debug("This is tew gaseste  DEBUG").
+     * <p>
+     * The info level of logging - for logging parameters just before calling an external function:
+     * logger.info("This is INFO").
+     * <p>
+     * The warn level of logging - for logging suspicious input or state, where the program  will default to system settings:
+     * logger.warn("This is WARN").
+     * <p>
+     * The error level of logging - for logging errors, for example trying to open file that is not there:
+     * logger.error("Sorry, something wrong!");
      */
     final static Logger logger = Logger.getLogger(InventoryManagement.class);
 
@@ -52,25 +64,6 @@ public class InventoryManagement {
          * @see "log4j.properties" file.
          */
         BasicConfigurator.configure();
-
-        /**
-         * There are different levels of logging.
-         * Depending on the level specified in the log4j.properties file, it skips the above levels.
-         * The various levels of logging are used for particular situations; in order to keep them accounted
-         * for, only for this homework, i`ve placed them in one place.
-         *
-         * This is the debug level of logging - use at the start and at the end of the function
-         *  logger.debug("This is tew gaseste  DEBUG");
-         *
-         *  The info level of logging - for logging parameters just before calling an external function.
-         *  logger.info("This is INFO");
-         *
-         *  The warn level of logging - for logging suspicious input or state, where the program  will default to system settings.
-         *  logger.warn("This is WARN");
-         *
-         *  The error level of logging - for logging errors, for example trying to open file that is not there.
-         *  logger.error("Sorry, something wrong!");
-         */
 
         // Creates objects with the given arguments.
         Book carte1 = new Book();
@@ -132,6 +125,20 @@ public class InventoryManagement {
         sculpture2.setCalitateHartie("Extra");
         sculpture2.setGen("Marmura");
 
+        GenericBiography<Object> biography1 = new GenericBiography<>();
+        biography1.setNume("Generic Stuff no 1");
+        biography1.setNrPagini(300);
+        biography1.setIsbn("973-8181-48-6");
+        biography1.setType("Autobiography");
+        biography1.setDomain("Compozitori");
+
+        GenericBiography<Object> biography2 = new GenericBiography<>();
+        biography2.setNume("Generic Stuff no 2");
+        biography2.setNrPagini(2500);
+        biography2.setIsbn("971-8183-48-1");
+        biography2.setType("Biography");
+        biography2.setDomain("Pictori");
+
         Book nuvela = new Novel();
         nuvela.setNume("Al treilea roman");
         nuvela.setNrPagini(100);
@@ -151,6 +158,13 @@ public class InventoryManagement {
         ((SculptureAlbum) albumSculptura).setCalitateHartie("Normal");
         ((SculptureAlbum) albumSculptura).setGen("Lemn");
 
+        Book biography = new GenericBiography<>();
+        biography.setNume("Generic Stuff no 3");
+        biography.setNrPagini(477);
+        biography.setIsbn("972-8379-41-2");
+        ((GenericBiography) biography).setType("Autobiography");
+        ((GenericBiography) biography).setDomain("Scriitori");
+
         /**
          * Creates an array list with the added objects.
          */
@@ -165,9 +179,13 @@ public class InventoryManagement {
         librarie.addBook(art2);
         librarie.addBook(sculpture1);
         librarie.addBook(sculpture2);
+        librarie.addBook(biography1);
+        librarie.addBook(biography2);
         librarie.addBook(nuvela);
         librarie.addBook(albumArta);
         librarie.addBook(albumSculptura);
+        librarie.addBook(biography);
+
 
         // Removes intems from the list
         librarie.remove(art2);
@@ -178,7 +196,7 @@ public class InventoryManagement {
         System.out.println("\n============ ArrayList ============");
 
         // Counts and prints the number of the items in the list.
-        System.out.println("\nNumar de books existente in biblioteca: " + librarie.getItemCount());
+        System.out.println("\nNumar de carti existente in biblioteca: " + librarie.getItemCount() + "\n");
 
         /**
          * Writes a file containing the list of objects in the library.
@@ -199,7 +217,7 @@ public class InventoryManagement {
              * Splits the string where a certain pattern is found.
              */
             String[] elementeLibrarie01 = centralizatorCarti01.split(",\\s");
-            fileWriter01.write("\nIn biblioteca se afla urmatoarele titluri:\n");
+            fileWriter01.write("In biblioteca se afla urmatoarele titluri:\n");
 
             /**
              * 1. Java foreach loop prints the separated elements of the library.
@@ -207,7 +225,7 @@ public class InventoryManagement {
              */
             int index = 1;
             for (String e : elementeLibrarie01) {
-                fileWriter01.write("\n~" + String.valueOf(index++) + "~ " + e);
+                fileWriter01.write("\n~" + index++ + "~ " + e);
             }
 
         } catch (IOException e) {
@@ -219,14 +237,14 @@ public class InventoryManagement {
          */
         Scanner readArrayListInventory = null;
         try {
-            logger.info("reading file");
+            logger.info("...reading file...");
             readArrayListInventory = new Scanner(new File("src/ro/sci/resources/arrayListLibrary.txt"));
             while (readArrayListInventory.hasNextLine()) {
-                logger.info("syso line from file: " + readArrayListInventory.nextLine());
+                System.out.println(readArrayListInventory.nextLine());
             }
-            logger.info("file reading done");
+            logger.info("...file reading done");
         } catch (FileNotFoundException e) {
-            logger.error("file not found " + e.getMessage());
+            logger.error("...file not found " + e.getMessage());
         }
 
 
@@ -251,9 +269,9 @@ public class InventoryManagement {
         try {
             List<String> allLines = Files.readAllLines(Paths.get("src/ro/sci/resources/arrayListLibrary.txt"));
             String[] arrayLines = allLines.toArray(new String[0]);
-            System.out.println(arrayLines[myint + 2]);
+            System.out.println(arrayLines[myint + 1]);
         } catch (IOException e) {
-            logger.error("Sorry, something wrong!", e);
+            logger.error("Sorry, something went wrong!", e);
         }
 
 
@@ -337,7 +355,7 @@ public class InventoryManagement {
             fileWriter02.write("\nDupa indepartarea din bibilioteca a cartii indicate de user, au mai ramas urmatoarele titluri:\n");
             int index = 1;
             for (String e : elementeLibrarie02) {
-                fileWriter02.write("\n~" + String.valueOf(index++) + "~ " + e);
+                fileWriter02.write("\n~" + index++ + "~ " + e);
             }
 
         } catch (IOException e) {

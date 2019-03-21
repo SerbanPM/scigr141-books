@@ -2,48 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="718865a2-617d-49a5-b4fd-5487b2c24f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_collections4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_41.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_171.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scigr141-books.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0ac6f4aebf0afcd6ea4a140c5b6d923cad8dbfea" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/201c8ae828ccb7086e584730b79f6670c5e7ff28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24139dae656713ba861751fb2c2ac38839349a7a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36940565cded8143c51c50d88ff1ea76b7957f0b" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0997b81ff95dc4f2d209568c6cffba4c105c6d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0997b81ff95dc4f2d209568c6cffba4c105c6d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43965e821ce0739aea564cf52f01f502d9bd66fc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a8550fd86b2e68b5d5b6dc2273144de0957189f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87fc884e5dd1a80d60549f2072a6c68ba4be0927" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab6b670d541e4d959f5e86289dde0bbf259fa3ba" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab6b670d541e4d959f5e86289dde0bbf259fa3ba" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b98dcb406edd7a4b56615a349de371a72c26137b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c40a5f50d14dfc0e7232fd1f8fc8c44b7a676d0a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97dd5b2666454753a64c05a0858905d2929ca51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d71ef9fccd9ff6fcf42858effa90f7c4f23b5ff6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb5829c0718af8a66a2208753ac512676b75963d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe2627249e622a6beca8b6847403f716d7115385" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/ArtAlbum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/Novel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/books/SculptureAlbum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/Library.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/library/LibraryInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/management/InventoryManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/ro/sci/resources/log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Test/ro/sci/library/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/ArtAlbum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/Novel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/books/SculptureAlbum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/library/LibraryInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/management/InventoryManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/management/InventoryManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/BLALAGlog4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/arrayListLibrary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scigr141-books/ro/sci/resources/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/scigr141-books/ro/sci/library/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/scigr141-books/ro/sci/library/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scigr141-books.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scigr141-books.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/books/Novel.java" afterDir="false" />
@@ -51,7 +30,8 @@
       <change beforePath="$PROJECT_DIR$/src/ro/sci/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/library/LibraryInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/BLALAGlog4j-application.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" afterDir="false" />
     </list>
@@ -65,10 +45,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            <state relative-caret-position="-85">
+              <caret line="132" column="41" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,33 +57,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5202">
-              <caret line="317" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="317" selection-end-column="9" />
+            <state relative-caret-position="179">
+              <caret line="68" column="7" selection-start-line="64" selection-start-column="3" selection-end-line="68" selection-end-column="7" />
+              <folding>
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#984#985#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="181">
+              <caret line="45" column="7" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+              <folding>
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            <state relative-caret-position="1326">
+              <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="71" column="154" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="154" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>F:\Documents\Git\JavaDev14\scigr141-books\src\ro\sci\books</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,13 +141,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java" />
-        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
+        <option value="$PROJECT_DIR$/log/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/Book.java" />
         <option value="$PROJECT_DIR$/src/ro/sci/library/Library.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/GenericWrittenSomething.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java" />
+        <option value="$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1030" />
     <option name="height" value="990" />
   </component>
@@ -150,18 +187,25 @@
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
               <item name="management" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
               <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sci" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scigr141-books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scigr141-books" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -172,12 +216,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553020956499" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/log4j.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553151303897" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Documents\Git\JavaDev14\scigr141-books\src" />
+      <recent name="F:\Documents\Git\JavaDev14\scigr141-books" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -191,7 +242,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testRemoveBook">
+  <component name="RunManager" selected="Application.InventoryManagement">
+    <configuration name="InventoryManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sci.management.InventoryManagement" />
+      <module name="scigr141-books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sci.management.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="scigr141-books" />
       <extension name="coverage">
@@ -225,6 +289,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InventoryManagement" />
         <item itemvalue="JUnit.LibraryTest.testRemoveBook" />
         <item itemvalue="JUnit.LibraryTest" />
       </list>
@@ -276,7 +341,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +350,37 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393767" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarLint" order="8" weight="0.30736545" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10536913" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,19 +398,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java</url>
-          <line>65</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    </layout-to-restore>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -342,23 +425,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5202">
-          <caret line="317" column="9" selection-start-line="310" selection-start-column="8" selection-end-line="317" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -366,10 +432,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ro/sci/resources/log4j-application.log" />
+    <entry file="file://$PROJECT_DIR$/test/ro/sci/library/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayListLibrary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/arrayLibrary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/resources/log4j-application.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ro/sci/library/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        <state relative-caret-position="1326">
+          <caret line="88" column="11" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Novel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="71" column="154" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/ArtAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="45" column="7" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/SculptureAlbum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="68" column="7" selection-start-line="64" selection-start-column="3" selection-end-line="68" selection-end-column="7" />
+          <folding>
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/management/InventoryManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="132" column="41" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ro/sci/books/GenericBiography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +599,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.3</last-edited>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

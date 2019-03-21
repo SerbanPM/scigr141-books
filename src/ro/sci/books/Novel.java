@@ -40,7 +40,7 @@ public class Novel extends Book {
      *
      * @param type A string containing the type of this novel.
      */
-    public Novel(String type){
+    private Novel(String type){
         this.type = type;
     }
 

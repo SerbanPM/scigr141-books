@@ -34,7 +34,7 @@ public class ArtAlbum extends Book {
      *
      * @return A string representing this art album paper quality.
      */
-    public String getCalitateHartie( ){
+    String getCalitateHartie( ){
         return calitateHartie;
     }
 

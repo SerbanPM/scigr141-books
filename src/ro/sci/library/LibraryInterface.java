@@ -12,36 +12,36 @@ import ro.sci.books.Book;
  * @version 1.0
  * @since 20190122
  */
-public interface LibraryInterface {
+interface LibraryInterface {
 
-    final static org.apache.log4j.Logger logger = Logger.getLogger(LibraryInterface.class);
+    org.apache.log4j.Logger logger = Logger.getLogger(LibraryInterface.class);
 
     /**
      * Adds an object of type Book to the array list.
      *
      * @param book An object of type Book.
      */
-    public void addBook(Book book);
+    void addBook(Book book);
 
     /**
      * Counts the objects in the list using the size() method.
      *
      * @return itemCount An int representing the number of objects in the list.
      */
-    public int getItemCount( );
+    int getItemCount( );
 
     /**
      * Searches for a title in the array list using the name of the object.
      *
      * @param book A string containing the title of the object to search.
      */
-    public Book search(String book);
+    Book search(String book);
 
     /**
      * Removes an object from the list.
      *
      * @param book The instance to be removed.
      */
-    public void remove(Book book);
+    void remove(Book book);
 
 }

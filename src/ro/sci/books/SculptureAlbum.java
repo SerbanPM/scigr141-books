@@ -40,7 +40,7 @@ public class SculptureAlbum extends ArtAlbum {
      *
      * @param gen A string containing the genre of this SculptureAlbum.
      */
-    public SculptureAlbum(String gen){
+    private SculptureAlbum(String gen){
         this.gen = gen;
     }
 

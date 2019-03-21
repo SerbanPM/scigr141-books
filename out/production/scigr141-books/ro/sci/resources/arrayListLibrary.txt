@@ -1,4 +1,3 @@
-
 In biblioteca se afla urmatoarele titluri:
 
 ~1~ Book: nume = 'Prima carte' / nrPagini = 10 / ISBN 973-8180-59-7
@@ -8,6 +7,9 @@ In biblioteca se afla urmatoarele titluri:
 ~5~ ArtAlbum: nume = 'Primul catalog de arta' / nrPagini = 20 / ISBN 973-8182-49-3 / calitateHartie = 'Basic'
 ~6~ SculptureAlbum: nume = 'Primul catalog de sculptura' / nrPagini = 200 / ISBN 973-8184-43-7 / calitateHartie = 'Normal' / gen = 'Bronz timpuriu'
 ~7~ SculptureAlbum: nume = 'Al doilea catalog de sculptura' / nrPagini = 200 / ISBN 973-8180-41-1 / calitateHartie = 'Extra' / gen = 'Marmura'
-~8~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
-~9~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
-~10~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
+~8~ Novel: nume = 'Generic Stuff no 1' / nrPagini = 300 / ISBN 973-8181-48-6 / gen literar = 'Autobiography' / domneniu = '3'
+~9~ Novel: nume = 'Generic Stuff no 2' / nrPagini = 2500 / ISBN 971-8183-48-1 / gen literar = 'Biography' / domneniu = '5'
+~10~ Novel: nume = 'Al treilea roman' / nrPagini = 100 / ISBN 973-8180-49-2 / gen literar = 'Action'
+~11~ ArtAlbum: nume = 'Al treilea catalog de arta' / nrPagini = 40 / ISBN 973-8180-48-4 / calitateHartie = 'Basic'
+~12~ SculptureAlbum: nume = 'Al treilea catalog de sculptura' / nrPagini = 50 / ISBN 973-8179-45-5 / calitateHartie = 'Normal' / gen = 'Lemn'
+~13~ Novel: nume = 'Generic Stuff no 3' / nrPagini = 477 / ISBN 972-8379-41-2 / gen literar = 'Autobiography' / domneniu = '78'
