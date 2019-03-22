@@ -1,6 +1,6 @@
 package ro.sci.books;
 
-**
+/**
  * <h1ArtAlbum</h1>
  * Child class of the Book class.
  * Used to create more specific instances of the Book class.
