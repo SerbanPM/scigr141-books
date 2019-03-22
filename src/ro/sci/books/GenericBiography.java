@@ -7,7 +7,7 @@ package ro.sci.books;
  *
  * @author Serban PM
  * @version 1.0
- * @see ArtAlbum
+ * @see Book
  * @since 20190122
  */
 
