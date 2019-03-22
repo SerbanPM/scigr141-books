@@ -13,10 +13,8 @@ package ro.sci.books;
 
 import org.apache.log4j.Logger;
 
-
 // Represents a category of art albums that can be found in this library.
 public class SculptureAlbum extends ArtAlbum {
-
 
     // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(SculptureAlbum.class);
@@ -65,5 +63,6 @@ public class SculptureAlbum extends ArtAlbum {
     public String toString( ){
         return "SculptureAlbum: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / calitateHartie = '" + getCalitateHartie() + '\'' + " / gen = '" + gen + '\'';
     }
+    
 }
 
