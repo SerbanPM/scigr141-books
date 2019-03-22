@@ -13,14 +13,11 @@ package ro.sci.books;
 
 import org.apache.log4j.Logger;
 
-
 // Generic class representing a category of novels that can be found in this library.
 public class GenericBiography<T> extends Novel {
 
-
     // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(GenericBiography.class);
-
 
     // A placeholder representing the domain of this GenericBiography.
     private T domain;
@@ -56,5 +53,5 @@ public class GenericBiography<T> extends Novel {
     public String toString( ){
         return "GenericBiography: " + "nume = '" + getNume() + '\'' + " / nrPagini = " + getNrPagini() + " / ISBN " + getIsbn() + " / gen literar = '" + getType() + '\'' + " / domneniu = '" + getDomain() + '\'';
     }
-
+    
 }
