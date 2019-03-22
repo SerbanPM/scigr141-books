@@ -7,7 +7,7 @@ package ro.sci.books;
  *
  * @author Serban PM
  * @version 1.0
- * @see Book
+ * @see Novel class
  * @since 20190122
  */
 
