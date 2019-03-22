@@ -19,22 +19,17 @@ import java.util.Objects;
 // Represents any category of books that can be found in this library.
 public class Book {
 
-
     // Creates a logger object for this class.
     final static Logger logger = Logger.getLogger(Book.class);
-
 
     // The number of pages of this book.
     private int nrPagini;
 
-
     //The name of this book.
     private String nume;
 
-
     // The ISBN code of this book.
     private String isbn;
-
 
     // Default constructor.
     public Book( ){
@@ -53,7 +48,6 @@ public class Book {
         this.nrPagini = pagesInArray;
         this.isbn = isbnInArray;
     }
-
 
     /**
      * Getter method which returns the number of pages of this book.
